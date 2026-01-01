@@ -5,6 +5,7 @@ import { Button } from "@/components/ui/button"
 import { Card } from "@/components/ui/card"
 import { SiteHeader } from "@/components/site-header"
 import { SiteFooter } from "@/components/site-footer"
+import { CallPopup } from "@/components/call-popup"
 import Link from "next/link"
 import Image from "next/image"
 
@@ -378,6 +379,7 @@ export default function Home() {
 
       {/* Footer */}
       <SiteFooter />
+      <CallPopup />
     </div>
   )
 }
