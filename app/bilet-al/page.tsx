@@ -6,7 +6,7 @@ import { Card } from "@/components/ui/card"
 import type { Metadata } from "next"
 
 export const metadata: Metadata = {
-  title: "Bilet Al - bilethizmeti.com | Uçak Bileti Rezervasyon",
+  title: "Bilet Al - Bilethizmeti.com | Uçak Bileti Rezervasyon",
   description:
     "bilethizmeti.com ile uçak bileti almak çok kolay! Bilet satış, değişim ve iptal işlemleri için hemen bizi arayın. 7/24 müşteri hizmetleri.",
   keywords: "uçak bileti, bilet al, bilet rezervasyon, uçak bileti satın al, thy bilet, pegasus bilet, bilethizmeti.com",
