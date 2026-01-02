@@ -6,10 +6,10 @@ import { Card } from "@/components/ui/card"
 import type { Metadata } from "next"
 
 export const metadata: Metadata = {
-  title: "Bilet Al - TelchFly | Uçak Bileti Rezervasyon",
+  title: "Bilet Al - FlyTR | Uçak Bileti Rezervasyon",
   description:
-    "TelchFly ile uçak bileti almak çok kolay! Bilet satış, değişim ve iptal işlemleri için hemen bizi arayın. 7/24 müşteri hizmetleri.",
-  keywords: "uçak bileti, bilet al, bilet rezervasyon, uçak bileti satın al, thy bilet, pegasus bilet, telchfly",
+    "FlyTR ile uçak bileti almak çok kolay! Bilet satış, değişim ve iptal işlemleri için hemen bizi arayın. 7/24 müşteri hizmetleri.",
+  keywords: "uçak bileti, bilet al, bilet rezervasyon, uçak bileti satın al, thy bilet, pegasus bilet, FlyTR",
 }
 
 export default function BiletAlPage() {
@@ -28,7 +28,7 @@ export default function BiletAlPage() {
           <div className="mx-auto max-w-3xl text-center">
             <div className="mb-6 inline-flex items-center gap-2 rounded-full bg-white/20 px-4 py-2 text-sm font-medium text-white backdrop-blur-sm">
               <Plane className="h-4 w-4" />
-              <span>TelchFly Bilet Hizmetleri</span>
+              <span>FlyTR Bilet Hizmetleri</span>
             </div>
 
             <h1 className="mb-6 text-4xl font-bold tracking-tight md:text-5xl text-white text-balance">

@@ -1,7 +1,7 @@
 import { SiteHeader } from "@/components/site-header"
 import { SiteFooter } from "@/components/site-footer"
 import { CallPopup } from "@/components/call-popup"
-import { Globe, Award, Clock, CheckCircle2, Star, DollarSign, Plane } from "lucide-react"
+import { Globe, Award, Clock, CheckCircle2, Star, DollarSign, Plane, Luggage, RefreshCw, XCircle, CheckSquare, PawPrint, Phone, Armchair, HelpCircle, Scale } from "lucide-react"
 import { Card } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
 import type { Metadata } from "next"
@@ -9,11 +9,24 @@ import Image from "next/image"
 import Link from "next/link"
 
 export const metadata: Metadata = {
-  title: "Pegasus Hava Yolları Uçak Bileti | En Uygun Fiyatlar - TelchFly",
+  title: "Pegasus Hava Yolları Uçak Bileti | En Uygun Fiyatlar - FlyTR",
   description:
-    "Pegasus ile 100+ destinasyona uygun fiyatlı uçuşlar. Düşük maliyetli havayolu ile ekonomik seyahat. En uygun Pegasus bilet fiyatları TelchFly'da.",
-  keywords: "pegasus, pegasus hava yolları, pegasus bilet, pegasus uçak bileti, pegasus fiyatları, telchfly",
+    "Pegasus ile 100+ destinasyona uygun fiyatlı uçuşlar. Düşük maliyetli havayolu ile ekonomik seyahat. En uygun Pegasus bilet fiyatları FlyTR'da.",
+  keywords: "pegasus, pegasus hava yolları, pegasus bilet, pegasus uçak bileti, pegasus fiyatları, FlyTR",
 }
+
+const quickLinks = [
+  { title: "Bagaj Hakkı", href: "/havayollari/pegasus/bagaj-hakki", icon: Luggage, description: "Bagaj kuralları ve ücretleri" },
+  { title: "Bilet Değişikliği", href: "/havayollari/pegasus/bilet-degisikligi", icon: RefreshCw, description: "Değişiklik koşulları" },
+  { title: "Bilet İptali", href: "/havayollari/pegasus/bilet-iptali", icon: XCircle, description: "İptal ve iade işlemleri" },
+  { title: "Check-in", href: "/havayollari/pegasus/check-in", icon: CheckSquare, description: "Online check-in rehberi" },
+  { title: "Evcil Hayvan", href: "/havayollari/pegasus/evcil-hayvan", icon: PawPrint, description: "Pet taşıma kuralları" },
+  { title: "Hamile Yolcu", href: "/havayollari/pegasus/hamile-yolcu", icon: Star, description: "Hamile yolcu politikası" },
+  { title: "İletişim", href: "/havayollari/pegasus/iletisim", icon: Phone, description: "Müşteri hizmetleri" },
+  { title: "Koltuk Seçimi", href: "/havayollari/pegasus/koltuk-secimi", icon: Armchair, description: "Koltuk tipleri ve ücretler" },
+  { title: "SSS", href: "/havayollari/pegasus/sss", icon: HelpCircle, description: "Sık sorulan sorular" },
+  { title: "Yolcu Hakları", href: "/havayollari/pegasus/yolcu-haklari", icon: Scale, description: "Yasal haklarınız" },
+]
 
 export default function PegasusPage() {
   return (
@@ -43,7 +56,7 @@ export default function PegasusPage() {
 
             <p className="text-lg text-muted-foreground md:text-xl text-pretty mb-8">
               Düşük maliyetli havayolu şirketi ile uygun fiyatlı uçuş deneyimi. En uygun Pegasus bilet fiyatları
-              TelchFly&apos;da.
+              FlyTR&apos;da.
             </p>
 
             <div className="flex flex-wrap justify-center gap-8 mb-8">
@@ -62,8 +75,32 @@ export default function PegasusPage() {
             </div>
 
             <Button size="lg" className="bg-yellow-600 hover:bg-yellow-700" asChild>
-              <Link href="/bilet-al">Pegasus Bilet Al</Link>
+              <a href="tel:08503030787">Pegasus Bilet Al</a>
             </Button>
+          </div>
+        </div>
+      </section>
+
+      {/* Hızlı Erişim Linkleri */}
+      <section className="py-16 bg-accent/30">
+        <div className="container mx-auto px-4">
+          <div className="text-center mb-10">
+            <h2 className="text-3xl font-bold mb-4">Pegasus Yolcu Hizmetleri</h2>
+            <p className="text-muted-foreground">Tüm Pegasus bilgi ve hizmetlerine hızlı erişim</p>
+          </div>
+
+          <div className="grid gap-4 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 max-w-6xl mx-auto">
+            {quickLinks.map((link) => (
+              <Link key={link.href} href={link.href}>
+                <Card className="p-4 h-full hover:shadow-lg transition-shadow hover:border-yellow-300 text-center">
+                  <div className="mx-auto mb-3 flex h-12 w-12 items-center justify-center rounded-full bg-yellow-100">
+                    <link.icon className="h-6 w-6 text-yellow-600" />
+                  </div>
+                  <h3 className="font-semibold mb-1">{link.title}</h3>
+                  <p className="text-xs text-muted-foreground">{link.description}</p>
+                </Card>
+              </Link>
+            ))}
           </div>
         </div>
       </section>
@@ -111,7 +148,9 @@ export default function PegasusPage() {
                   </div>
                 </div>
 
-                <Button className="w-full bg-yellow-600 hover:bg-yellow-700">Bilet Al</Button>
+                <Button className="w-full bg-yellow-600 hover:bg-yellow-700" asChild>
+                  <a href="tel:08503030787">Bilet Al</a>
+                </Button>
               </Card>
             ))}
           </div>
@@ -161,7 +200,9 @@ export default function PegasusPage() {
                   </div>
                 </div>
 
-                <Button className="w-full bg-yellow-600 hover:bg-yellow-700">Bilet Al</Button>
+                <Button className="w-full bg-yellow-600 hover:bg-yellow-700" asChild>
+                  <a href="tel:08503030787">Bilet Al</a>
+                </Button>
               </Card>
             ))}
           </div>
@@ -229,13 +270,13 @@ export default function PegasusPage() {
             <div className="prose prose-lg max-w-none">
               <p className="text-muted-foreground mb-6 text-pretty">
                 Türkiye&apos;nin önde gelen düşük maliyetli havayolu şirketi Pegasus Hava Yolları ile seyahat etmek
-                istiyorsanız, TelchFly üzerinden kolayca bilet satın alabilirsiniz.
+                istiyorsanız, FlyTR üzerinden kolayca bilet satın alabilirsiniz.
               </p>
 
               <Card className="p-6 mb-8">
                 <h3 className="text-xl font-bold mb-4">Pegasus Bilet Alma Süreci</h3>
                 <p className="text-muted-foreground text-pretty">
-                  Pegasus Hava Yolları biletinizi TelchFly üzerinden satın almak oldukça basittir. Yukarıdaki arama
+                  Pegasus Hava Yolları biletinizi FlyTR üzerinden satın almak oldukça basittir. Yukarıdaki arama
                   formunu kullanarak kalkış ve varış noktalarınızı, seyahat tarihlerinizi ve yolcu sayınızı
                   belirledikten sonra &quot;Pegasus Uçuş Ara&quot; butonuna tıklayın.
                 </p>
@@ -273,6 +314,11 @@ export default function PegasusPage() {
                     <span>El Bagajı: 8 kg (55x40x20 cm)</span>
                   </li>
                 </ul>
+                <div className="mt-4">
+                  <Link href="/havayollari/pegasus/bagaj-hakki" className="text-yellow-600 hover:underline font-medium text-sm">
+                    Detaylı bagaj bilgisi için tıklayın →
+                  </Link>
+                </div>
               </Card>
 
               <h3 className="text-2xl font-bold mb-4">Pegasus Check-in İşlemleri</h3>
@@ -293,17 +339,22 @@ export default function PegasusPage() {
                   <p className="text-sm text-muted-foreground">Self-servis veya kontuardan</p>
                 </Card>
               </div>
+              <div className="mb-8">
+                <Link href="/havayollari/pegasus/check-in" className="text-yellow-600 hover:underline font-medium text-sm">
+                  Detaylı check-in rehberi için tıklayın →
+                </Link>
+              </div>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Why TelchFly for Pegasus */}
+      {/* Why FlyTR for Pegasus */}
       <section className="py-20 bg-yellow-600 text-white">
         <div className="container mx-auto px-4 text-center">
-          <h2 className="text-3xl font-bold mb-4 text-balance">Neden TelchFly ile Pegasus Bileti?</h2>
+          <h2 className="text-3xl font-bold mb-4 text-balance">Neden FlyTR ile Pegasus Bileti?</h2>
           <p className="text-lg mb-8 max-w-2xl mx-auto opacity-90 text-pretty">
-            TelchFly üzerinden Pegasus Hava Yolları bileti almanın avantajları
+            FlyTR üzerinden Pegasus Hava Yolları bileti almanın avantajları
           </p>
 
           <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-5 max-w-6xl mx-auto mb-8">
@@ -325,10 +376,10 @@ export default function PegasusPage() {
           </div>
 
           <Button size="lg" variant="secondary" className="gap-2" asChild>
-            <Link href="/bilet-al">
+            <a href="tel:08503030787">
               <Plane className="h-5 w-5" />
               Pegasus Bilet Al
-            </Link>
+            </a>
           </Button>
         </div>
       </section>

@@ -9,25 +9,32 @@ const geist = Geist({ subsets: ["latin"] })
 const geistMono = Geist_Mono({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "TelchFly - Türkiye'nin Güvenilir Uçak Bileti Satış Platformu | IATA & TÜRSAB Üyesi",
+  title: "FlyTR - Türkiye'nin Güvenilir Uçak Bileti Satış Platformu | IATA & TÜRSAB Üyesi",
   description:
-    "TelchFly ile dünyaya açılın. 14 yıllık deneyim, 5M+ mutlu müşteri. IATA ve TÜRSAB üyesi güvenilir seyahat acentesi. En uygun fiyatlarla uçak bileti, bilet değişikliği ve 24/7 müşteri desteği.",
+    "FlyTR ile dünyaya açılın. 14 yıllık deneyim, 5M+ mutlu müşteri. IATA ve TÜRSAB üyesi güvenilir seyahat acentesi. En uygun fiyatlarla uçak bileti, bilet değişikliği ve 24/7 müşteri desteği.",
   keywords:
-    "uçak bileti, havayolu, seyahat acentesi, telchfly, IATA, TÜRSAB, ucuz uçak bileti, bilet satışı, Turkish Airlines, Pegasus, SunExpress",
-  authors: [{ name: "TelchFly" }],
-  creator: "TelchFly",
-  publisher: "TelchFly",
+    "uçak bileti, havayolu, seyahat acentesi, FlyTR, IATA, TÜRSAB, ucuz uçak bileti, bilet satışı, Turkish Airlines, Pegasus, SunExpress",
+  authors: [{ name: "FlyTR" }],
+  creator: "FlyTR",
+  publisher: "FlyTR",
+  icons: {
+    icon: [
+      { url: "/flytr.png", type: "image/png" },
+    ],
+    shortcut: "/flytr.png",
+    apple: "/flytr.png",
+  },
   openGraph: {
     type: "website",
     locale: "tr_TR",
-    url: "https://www.telchfly.com.tr",
-    title: "TelchFly - Türkiye'nin Güvenilir Uçak Bileti Satış Platformu",
+    url: "https://www.FlyTR.com.tr",
+    title: "FlyTR - Türkiye'nin Güvenilir Uçak Bileti Satış Platformu",
     description: "14 yıllık deneyim, 5M+ mutlu müşteri. IATA ve TÜRSAB üyesi güvenilir seyahat acentesi.",
-    siteName: "TelchFly",
+    siteName: "FlyTR",
   },
   twitter: {
     card: "summary_large_image",
-    title: "TelchFly - Türkiye'nin Güvenilir Uçak Bileti Satış Platformu",
+    title: "FlyTR - Türkiye'nin Güvenilir Uçak Bileti Satış Platformu",
     description: "14 yıllık deneyim, 5M+ mutlu müşteri. IATA ve TÜRSAB üyesi güvenilir seyahat acentesi.",
   },
   robots: {
@@ -42,7 +49,7 @@ export const metadata: Metadata = {
     },
   },
   alternates: {
-    canonical: "https://www.telchfly.com.tr",
+    canonical: "https://www.FlyTR.com.tr",
   },
 }
 
@@ -63,7 +70,7 @@ export default function RootLayout({
   return (
     <html lang="tr">
       <head>
-        <link rel="canonical" href="https://www.telchfly.com.tr" />
+        <link rel="canonical" href="https://www.FlyTR.com.tr" />
         <meta name="geo.region" content="TR" />
         <meta name="geo.placename" content="İstanbul" />
         <script
@@ -72,11 +79,11 @@ export default function RootLayout({
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "TravelAgency",
-              name: "TelchFly",
+              name: "FlyTR",
               description: "Türkiye'nin güvenilir uçak bileti satış platformu",
-              url: "https://www.telchfly.com.tr",
+              url: "https://www.FlyTR.com.tr",
               telephone: "+90-850-303-07-87",
-              email: "info@telchfly.com.tr",
+              email: "info@FlyTR.com.tr",
               address: {
                 "@type": "PostalAddress",
                 streetAddress: "Ulus Şehit İbrahim Akpınar Cad. No:4",

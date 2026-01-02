@@ -9,13 +9,13 @@ import { Textarea } from "@/components/ui/textarea"
 import type { Metadata } from "next"
 
 export const metadata: Metadata = {
-  title: "İletişim - TelchFly | 7/24 Müşteri Destek Hattı 0850 303 07 87",
+  title: "İletişim - FlyTR | 7/24 Müşteri Destek Hattı 0850 303 07 87",
   description:
-    "TelchFly ile iletişime geçin. 7/24 müşteri destek hattı: 0850 303 07 87. Bilet satış, değişiklik ve iptal için profesyonel destek. IATA ve TÜRSAB üyesi güvenilir seyahat acentesi.",
+    "FlyTR ile iletişime geçin. 7/24 müşteri destek hattı: 0850 303 07 87. Bilet satış, değişiklik ve iptal için profesyonel destek. IATA ve TÜRSAB üyesi güvenilir seyahat acentesi.",
   keywords:
-    "telchfly iletişim, müşteri hizmetleri, destek hattı, uçak bileti yardım, 0850 303 07 87, seyahat acentesi iletişim",
+    "FlyTR iletişim, müşteri hizmetleri, destek hattı, uçak bileti yardım, 0850 303 07 87, seyahat acentesi iletişim",
   openGraph: {
-    title: "İletişim - TelchFly | 7/24 Müşteri Destek",
+    title: "İletişim - FlyTR | 7/24 Müşteri Destek",
     description: "7/24 profesyonel müşteri desteği. Hemen arayın: 0850 303 07 87",
   },
 }
@@ -59,14 +59,14 @@ export default function ContactPage() {
               </Card>
             </a>
 
-            <a href="mailto:info@telchfly.com.tr">
+            <a href="mailto:info@FlyTR.com.tr">
               <Card className="p-6 text-center hover:shadow-lg transition-shadow h-full border-2 hover:border-primary/50">
                 <div className="mx-auto mb-4 flex h-12 w-12 items-center justify-center rounded-full bg-primary/10">
                   <Mail className="h-6 w-6 text-primary" />
                 </div>
                 <h3 className="font-semibold mb-2">E-posta</h3>
                 <p className="text-sm text-muted-foreground mb-3">Hızlı yanıt garantisi</p>
-                <p className="text-lg font-bold text-primary mb-1">info@telchfly.com.tr</p>
+                <p className="text-lg font-bold text-primary mb-1">info@FlyTR.com.tr</p>
                 <p className="text-xs text-muted-foreground">24 saat içinde yanıt</p>
               </Card>
             </a>
@@ -198,63 +198,7 @@ export default function ContactPage() {
       </section>
 
       {/* Contact Form */}
-      <section className="py-20">
-        <div className="container mx-auto px-4">
-          <div className="max-w-2xl mx-auto">
-            <div className="text-center mb-8">
-              <h2 className="text-3xl font-bold mb-4 text-balance">Bize Mesaj Gönderin</h2>
-              <p className="text-muted-foreground text-pretty">
-                Sorularınızı, önerilerinizi veya şikayetlerinizi bizimle paylaşın. En kısa sürede size dönüş yapacağız.
-              </p>
-            </div>
-
-            <Card className="p-8">
-              <form className="space-y-6">
-                <div className="grid md:grid-cols-2 gap-4">
-                  <div>
-                    <label htmlFor="name" className="text-sm font-medium mb-2 block">
-                      Ad Soyad *
-                    </label>
-                    <Input id="name" placeholder="Adınızı ve soyadınızı girin" required />
-                  </div>
-
-                  <div>
-                    <label htmlFor="phone" className="text-sm font-medium mb-2 block">
-                      Telefon Numarası
-                    </label>
-                    <Input id="phone" type="tel" placeholder="Telefon numaranızı girin" />
-                  </div>
-                </div>
-
-                <div>
-                  <label htmlFor="email" className="text-sm font-medium mb-2 block">
-                    E-posta Adresi *
-                  </label>
-                  <Input id="email" type="email" placeholder="E-posta adresinizi girin" required />
-                </div>
-
-                <div>
-                  <label htmlFor="subject" className="text-sm font-medium mb-2 block">
-                    Konu *
-                  </label>
-                  <Input id="subject" placeholder="Konu seçin" required />
-                </div>
-
-                <div>
-                  <label htmlFor="message" className="text-sm font-medium mb-2 block">
-                    Mesajınız *
-                  </label>
-                  <Textarea id="message" placeholder="Mesajınızı detaylı olarak yazın..." rows={6} required />
-                </div>
-
-                <Button type="submit" className="w-full" size="lg">
-                  Mesajı Gönder
-                </Button>
-              </form>
-            </Card>
-          </div>
-        </div>
-      </section>
+    
 
       <SiteFooter />
       <CallPopup />

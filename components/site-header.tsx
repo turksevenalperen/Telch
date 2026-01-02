@@ -21,8 +21,8 @@ export function SiteHeader() {
     <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-backdrop-filter:bg-background/60">
       <div className="container mx-auto flex h-16 items-center justify-between px-4">
         <Link href="/" className="flex items-center gap-2">
-          <Plane className="h-6 w-6 text-primary" />
-          <span className="text-xl font-semibold">TelchFly</span>
+          <Image src="/flytr.png" alt="FlyTR" width={48} height={48} className="rounded" />
+          <span className="text-xl font-semibold">FlyTR</span>
         </Link>
 
         {/* Desktop Navigation */}
@@ -91,7 +91,7 @@ export function SiteHeader() {
             <span>0850 303 07 87</span>
           </a>
           <Button size="sm" asChild>
-            <Link href="/iletisim">İletişime Geç</Link>
+            <a href="tel:08503030787">İletişime Geç</a>
           </Button>
         </div>
 
@@ -169,9 +169,9 @@ export function SiteHeader() {
               <span>0850 303 07 87</span>
             </a>
             <Button size="sm" asChild className="w-full">
-              <Link href="/iletisim" onClick={() => setMobileMenuOpen(false)}>
+              <a href="tel:08503030787" onClick={() => setMobileMenuOpen(false)}>
                 İletişime Geç
-              </Link>
+              </a>
             </Button>
           </nav>
         </div>

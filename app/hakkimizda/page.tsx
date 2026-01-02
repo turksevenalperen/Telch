@@ -6,12 +6,12 @@ import { Card } from "@/components/ui/card"
 import type { Metadata } from "next"
 
 export const metadata: Metadata = {
-  title: "Hakkımızda - TelchFly | 14 Yıllık Deneyim, IATA & TÜRSAB Üyesi",
+  title: "Hakkımızda - FlyTR | 14 Yıllık Deneyim, IATA & TÜRSAB Üyesi",
   description:
-    "TelchFly 2010'dan beri Türkiye'nin güvenilir seyahat acentesi. 5M+ mutlu müşteri, 150+ destinasyon, IATA ve TÜRSAB üyesi. 14 yıllık tecrübe ile güvenli seyahat hizmeti.",
-  keywords: "telchfly hakkında, seyahat acentesi, IATA üyesi, TÜRSAB üyesi, havayolu bileti, güvenilir seyahat",
+    "FlyTR 2010'dan beri Türkiye'nin güvenilir seyahat acentesi. 5M+ mutlu müşteri, 150+ destinasyon, IATA ve TÜRSAB üyesi. 14 yıllık tecrübe ile güvenli seyahat hizmeti.",
+  keywords: "FlyTR hakkında, seyahat acentesi, IATA üyesi, TÜRSAB üyesi, havayolu bileti, güvenilir seyahat",
   openGraph: {
-    title: "Hakkımızda - TelchFly | 14 Yıllık Deneyim",
+    title: "Hakkımızda - FlyTR | 14 Yıllık Deneyim",
     description: "2010'dan beri 5M+ mutlu müşteri. IATA ve TÜRSAB üyesi güvenilir seyahat acentesi.",
   },
 }
@@ -30,7 +30,7 @@ export default function AboutPage() {
               <span>2010&apos;dan Beri Hizmetinizdeyiz</span>
             </div>
 
-            <h1 className="mb-6 text-4xl font-bold tracking-tight md:text-5xl text-balance">TelchFly Hakkında</h1>
+            <h1 className="mb-6 text-4xl font-bold tracking-tight md:text-5xl text-balance">FlyTR Hakkında</h1>
 
             <p className="text-lg text-muted-foreground md:text-xl text-pretty">
               2010&apos;dan beri Türkiye&apos;nin güvenilir seyahat acentesi olarak, size en uygun fiyatlarla güvenli
@@ -84,7 +84,7 @@ export default function AboutPage() {
             <div className="prose prose-lg max-w-none">
               <h3 className="text-2xl font-bold mb-4">Şirket Geçmişimiz</h3>
               <p className="text-muted-foreground mb-4 text-pretty">
-                TelchFly, 2010 yılında Türkiye&apos;de kurulan ve havacılık sektöründe güvenilir hizmet anlayışıyla öne
+                FlyTR, 2010 yılında Türkiye&apos;de kurulan ve havacılık sektöründe güvenilir hizmet anlayışıyla öne
                 çıkan bir uçak bileti satış platformudur. Kuruluşumuzdan bu yana, seyahat endüstrisinde müşteri odaklı
                 yaklaşımımız ve yenilikçi çözümlerimizle sektörün öncü firmalarından biri haline geldik.
               </p>
@@ -112,7 +112,7 @@ export default function AboutPage() {
           <div className="max-w-4xl mx-auto">
             <h2 className="text-3xl font-bold mb-6 text-balance">Hizmet Anlayışımız</h2>
             <p className="text-muted-foreground mb-8 text-pretty">
-              TelchFly olarak, sadece uçak bileti satışı yapmakla kalmayıp, müşterilerimizin seyahat sürecinin her
+              FlyTR olarak, sadece uçak bileti satışı yapmakla kalmayıp, müşterilerimizin seyahat sürecinin her
               aşamasında yanlarında olmayı hedefliyoruz. Müşteri memnuniyeti bizim için en öncelikli konudur.
             </p>
             <p className="text-muted-foreground text-pretty">
@@ -144,7 +144,7 @@ export default function AboutPage() {
       <section className="py-20 bg-accent/20">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold mb-4 text-balance">Rakamlarla TelchFly</h2>
+            <h2 className="text-3xl font-bold mb-4 text-balance">Rakamlarla FlyTR</h2>
           </div>
 
           <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-4 max-w-6xl mx-auto">
@@ -193,7 +193,7 @@ export default function AboutPage() {
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold mb-4 text-balance">Hizmetlerimiz</h2>
             <p className="text-muted-foreground text-pretty max-w-2xl mx-auto">
-              TelchFly&apos;ın kapsamlı hizmet ağı ile seyahat ihtiyaçlarınızın tamamını karşılıyoruz
+              FlyTR&apos;ın kapsamlı hizmet ağı ile seyahat ihtiyaçlarınızın tamamını karşılıyoruz
             </p>
           </div>
 
@@ -247,12 +247,12 @@ export default function AboutPage() {
         </div>
       </section>
 
-      {/* Why TelchFly */}
+      {/* Why FlyTR */}
       <section className="py-20 bg-primary text-primary-foreground">
         <div className="container mx-auto px-4 text-center">
-          <h2 className="text-3xl font-bold mb-4 text-balance">Neden TelchFly?</h2>
+          <h2 className="text-3xl font-bold mb-4 text-balance">Neden FlyTR?</h2>
           <p className="text-lg mb-8 max-w-2xl mx-auto opacity-90 text-pretty">
-            2010&apos;dan beri Türkiye&apos;de hizmet veren TelchFly, milyonlarca müşterisine güvenli ve ekonomik
+            2010&apos;dan beri Türkiye&apos;de hizmet veren FlyTR, milyonlarca müşterisine güvenli ve ekonomik
             seyahat imkanı sunmaktadır. Geniş havayolu ağımız, rekabetçi fiyatlarımız ve kaliteli hizmet anlayışımızla
             sektörde öncü konumdayız.
           </p>

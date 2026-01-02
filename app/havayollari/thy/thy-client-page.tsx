@@ -37,7 +37,7 @@ export default function THYClientPage() {
             </h1>
 
             <p className="text-lg text-muted-foreground md:text-xl text-pretty mb-8">
-              Dünyanın en çok ülkeye uçan havayolu şirketi ile seyahat edin. En uygun THY bilet fiyatları TelchFly&apos;da.
+              Dünyanın en çok ülkeye uçan havayolu şirketi ile seyahat edin. En uygun THY bilet fiyatları FlyTR&apos;da.
             </p>
 
             <div className="flex flex-wrap justify-center gap-8 mb-8">
@@ -56,7 +56,7 @@ export default function THYClientPage() {
             </div>
 
             <Button size="lg" className="bg-red-600 hover:bg-red-700" asChild>
-              <Link href="/bilet-al">THY Bilet Al</Link>
+              <a href="tel:08503030787">THY Bilet Al</a>
             </Button>
           </div>
         </div>
@@ -105,7 +105,9 @@ export default function THYClientPage() {
                   </div>
                 </div>
 
-                <Button className="w-full bg-red-600 hover:bg-red-700">Bilet Al</Button>
+                <Button className="w-full bg-red-600 hover:bg-red-700" asChild>
+                  <a href="tel:08503030787">Bilet Al</a>
+                </Button>
               </Card>
             ))}
           </div>
@@ -155,7 +157,9 @@ export default function THYClientPage() {
                   </div>
                 </div>
 
-                <Button className="w-full bg-red-600 hover:bg-red-700">Bilet Al</Button>
+                <Button className="w-full bg-red-600 hover:bg-red-700" asChild>
+                  <a href="tel:08503030787">Bilet Al</a>
+                </Button>
               </Card>
             ))}
           </div>
@@ -220,14 +224,14 @@ export default function THYClientPage() {
 
             <div className="prose prose-lg max-w-none">
               <p className="text-muted-foreground mb-6 text-pretty">
-                Türkiye&apos;nin milli havayolu şirketi Türk Hava Yolları (THY) ile seyahat etmek istiyorsanız, TelchFly
+                Türkiye&apos;nin milli havayolu şirketi Türk Hava Yolları (THY) ile seyahat etmek istiyorsanız, FlyTR
                 üzerinden kolayca bilet satın alabilirsiniz.
               </p>
 
               <Card className="p-6 mb-8">
                 <h3 className="text-xl font-bold mb-4">THY Bilet Alma Süreci</h3>
                 <p className="text-muted-foreground text-pretty">
-                  Türk Hava Yolları biletinizi TelchFly üzerinden satın almak oldukça basittir. Yukarıdaki arama formunu
+                  Türk Hava Yolları biletinizi FlyTR üzerinden satın almak oldukça basittir. Yukarıdaki arama formunu
                   kullanarak kalkış ve varış noktalarınızı, seyahat tarihlerinizi ve yolcu sayınızı belirledikten sonra
                   &quot;THY Uçuş Ara&quot; butonuna tıklayın.
                 </p>
@@ -295,12 +299,12 @@ export default function THYClientPage() {
         </div>
       </section>
 
-      {/* Why TelchFly for THY */}
+      {/* Why FlyTR for THY */}
       <section className="py-20 bg-red-600 text-white">
         <div className="container mx-auto px-4 text-center">
-          <h2 className="text-3xl font-bold mb-4 text-balance">Neden TelchFly ile THY Bileti?</h2>
+          <h2 className="text-3xl font-bold mb-4 text-balance">Neden FlyTR ile THY Bileti?</h2>
           <p className="text-lg mb-8 max-w-2xl mx-auto opacity-90 text-pretty">
-            TelchFly üzerinden Türk Hava Yolları bileti almanın avantajları
+            FlyTR üzerinden Türk Hava Yolları bileti almanın avantajları
           </p>
 
           <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-5 max-w-6xl mx-auto mb-8">
@@ -322,11 +326,57 @@ export default function THYClientPage() {
           </div>
 
           <Button size="lg" variant="secondary" className="gap-2" asChild>
-            <Link href="/bilet-al">
+            <a href="tel:08503030787">
               <Plane className="h-5 w-5" />
               THY Bilet Al
-            </Link>
+            </a>
           </Button>
+        </div>
+      </section>
+
+      {/* Benzer Konular */}
+      <section className="py-20 bg-accent/20">
+        <div className="container mx-auto px-4">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl font-bold mb-4 text-balance">THY Hakkında Faydalı Bilgiler</h2>
+            <p className="text-muted-foreground text-pretty max-w-2xl mx-auto">
+              Türk Hava Yolları ile seyahatinizi kolaylaştıracak rehberler ve bilgiler
+            </p>
+          </div>
+
+          <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 max-w-7xl mx-auto">
+            {[
+              { title: "THY Bagaj Hakkı", desc: "Bagaj ağırlık ve boyut limitleri", href: "/havayollari/thy/bagaj-hakki" },
+              { title: "THY Bilet İptali", desc: "İptal koşulları ve iade işlemleri", href: "/havayollari/thy/bilet-iptali" },
+              { title: "THY Bilet Değişikliği", desc: "Tarih ve saat değişiklik kuralları", href: "/havayollari/thy/bilet-degisikligi" },
+              { title: "THY Check-in", desc: "Online ve mobil check-in rehberi", href: "/havayollari/thy/check-in" },
+              { title: "THY Koltuk Seçimi", desc: "Koltuk seçim rehberi ve ücretler", href: "/havayollari/thy/koltuk-secimi" },
+              { title: "THY İletişim", desc: "Çağrı merkezi ve iletişim bilgileri", href: "/havayollari/thy/iletisim" },
+              { title: "THY Evcil Hayvan", desc: "Pet taşıma kuralları ve prosedürler", href: "/havayollari/thy/evcil-hayvan" },
+              { title: "THY Yolcu Hakları", desc: "Haklarınız ve tazminat bilgileri", href: "/havayollari/thy/yolcu-haklari" },
+              { title: "THY Hamile Yolcu", desc: "Hamile seyahat kuralları", href: "/havayollari/thy/hamile-yolcu" },
+              { title: "THY Miles&Smiles", desc: "Sadakat programı avantajları", href: "/havayollari/thy/miles-smiles" },
+              { title: "THY Eğlence Sistemi", desc: "Planet Entertainment özellikleri", href: "/havayollari/thy/eglence-sistemi" },
+              { title: "THY İkram Servisi", desc: "Uçak içi yemek ve ikram", href: "/havayollari/thy/ikram-servisi" },
+              { title: "THY Mobil Uygulama", desc: "Uygulama özellikleri ve kullanım", href: "/havayollari/thy/mobil-uygulama" },
+              { title: "THY Popüler Rotalar", desc: "En çok tercih edilen destinasyonlar", href: "/havayollari/thy/populer-rotalar" },
+              { title: "THY Sık Sorulan Sorular", desc: "Merak edilen sorular ve cevaplar", href: "/havayollari/thy/sss" },
+            ].map((item) => (
+              <Link key={item.href} href={item.href}>
+                <Card className="p-5 h-full hover:shadow-lg transition-all hover:border-red-200 group">
+                  <div className="flex items-start gap-3">
+                    <div className="flex h-10 w-10 items-center justify-center rounded-full bg-red-100 shrink-0 group-hover:bg-red-200 transition-colors">
+                      <Plane className="h-5 w-5 text-red-600" />
+                    </div>
+                    <div>
+                      <h3 className="font-semibold mb-1 group-hover:text-red-600 transition-colors">{item.title}</h3>
+                      <p className="text-sm text-muted-foreground">{item.desc}</p>
+                    </div>
+                  </div>
+                </Card>
+              </Link>
+            ))}
+          </div>
         </div>
       </section>
 

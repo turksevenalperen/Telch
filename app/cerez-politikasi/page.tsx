@@ -6,12 +6,12 @@ import { Card } from "@/components/ui/card"
 import type { Metadata } from "next"
 
 export const metadata: Metadata = {
-  title: "Çerez Politikası - TelchFly | KVKK ve GDPR Uyumlu Gizlilik",
+  title: "Çerez Politikası - FlyTR | KVKK ve GDPR Uyumlu Gizlilik",
   description:
-    "TelchFly çerez politikası. Web sitemizde kullanılan çerezler, veri güvenliği ve gizlilik uygulamalarımız hakkında detaylı bilgi. KVKK ve GDPR uyumlu.",
+    "FlyTR çerez politikası. Web sitemizde kullanılan çerezler, veri güvenliği ve gizlilik uygulamalarımız hakkında detaylı bilgi. KVKK ve GDPR uyumlu.",
   keywords: "çerez politikası, cookie policy, gizlilik, veri güvenliği, KVKK, GDPR, kişisel veri koruma",
   openGraph: {
-    title: "Çerez Politikası - TelchFly",
+    title: "Çerez Politikası - FlyTR",
     description: "Web sitemizde kullanılan çerezler ve gizlilik uygulamalarımız hakkında şeffaf bilgilendirme.",
   },
 }
@@ -70,8 +70,8 @@ export default function CookiePolicyPage() {
             <Card className="p-8 mb-8">
               <h2 className="text-2xl font-bold mb-4">Giriş</h2>
               <p className="text-muted-foreground mb-4 text-pretty">
-                TelchFly olarak, web sitemizi ziyaret eden kullanıcılarımızın gizliliğine saygı duyuyor ve kişisel
-                verilerinin korunması konusunda azami özen gösteriyoruz. Bu çerez politikası, www.telchfly.com.tr web
+                FlyTR olarak, web sitemizi ziyaret eden kullanıcılarımızın gizliliğine saygı duyuyor ve kişisel
+                verilerinin korunması konusunda azami özen gösteriyoruz. Bu çerez politikası, www.FlyTR.com.tr web
                 sitesinde kullanılan çerezler hakkında sizi bilgilendirmek amacıyla hazırlanmıştır.
               </p>
               <p className="text-muted-foreground text-pretty">
@@ -218,7 +218,7 @@ export default function CookiePolicyPage() {
                 </div>
                 <div>
                   <p className="font-semibold mb-1">E-posta</p>
-                  <p className="opacity-90">info@telchfly.com.tr</p>
+                  <p className="opacity-90">info@FlyTR.com.tr</p>
                 </div>
                 <div>
                   <p className="font-semibold mb-1">Çalışma Saatleri</p>

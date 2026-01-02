@@ -6,9 +6,9 @@ import { Card } from "@/components/ui/card"
 import type { Metadata } from "next"
 
 export const metadata: Metadata = {
-  title: "İptal & İade Şartları | Uçak Bileti İptal Koşulları - TelchFly",
+  title: "İptal & İade Şartları | Uçak Bileti İptal Koşulları - FlyTR",
   description:
-    "TelchFly uçak bileti iptal ve iade koşulları, yolcu hakları ve tazminat bilgileri. Havayolu şirketlerine göre iptal şartları ve EU 261 yolcu hakları.",
+    "FlyTR uçak bileti iptal ve iade koşulları, yolcu hakları ve tazminat bilgileri. Havayolu şirketlerine göre iptal şartları ve EU 261 yolcu hakları.",
   keywords: "uçak bileti iptali, bilet iadesi, yolcu hakları, EU 261, rötar tazminatı, bilet değişikliği",
 }
 
@@ -23,7 +23,7 @@ export default function IptalIadePage() {
             <div className="mb-8">
               <h1 className="text-4xl font-bold mb-4 text-balance">İptal & İade Şartları</h1>
               <p className="text-lg text-muted-foreground text-pretty">
-                TelchFly uçak bileti iptal ve iade koşulları, yolcu hakları ve tazminat bilgileri
+                FlyTR uçak bileti iptal ve iade koşulları, yolcu hakları ve tazminat bilgileri
               </p>
             </div>
 
@@ -58,7 +58,7 @@ export default function IptalIadePage() {
                         <li>• İade işlemleri 7-14 iş günü içinde tamamlanır</li>
                         <li>• İade tutarı, ödeme yaptığınız kartın hesabına aktarılır</li>
                         <li>• Havayolu şirketinin iptal ücretleri düşüldükten sonra kalan tutar iade edilir</li>
-                        <li>• TelchFly hizmet bedeli iade kapsamı dışındadır</li>
+                        <li>• FlyTR hizmet bedeli iade kapsamı dışındadır</li>
                       </ul>
                     </div>
                   </div>
@@ -211,7 +211,7 @@ export default function IptalIadePage() {
                   İptal İşlemi: 0850 303 07 87
                 </a>
                 <a
-                  href="mailto:info@telchfly.com.tr"
+                  href="mailto:info@FlyTR.com.tr"
                   className="inline-flex items-center justify-center gap-2 rounded-lg border border-primary px-6 py-3 text-sm font-medium hover:bg-accent"
                 >
                   E-posta Desteği
