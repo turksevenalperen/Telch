@@ -35,7 +35,7 @@ export default function Home() {
               <span>IATA & TÜRSAB Üyesi</span>
             </div>
 
-            <h2 className="mb-2 text-2xl font-bold text-white/90 md:text-3xl">bilethizmeti.com</h2>
+            <h2 className="mb-2 text-2xl font-bold text-white/90 md:text-3xl">Bilethizmeti.com</h2>
 
             <h1 className="mb-6 text-4xl font-bold tracking-tight md:text-6xl text-balance">
               <span className="text-white">Dünyaya</span>{" "}
