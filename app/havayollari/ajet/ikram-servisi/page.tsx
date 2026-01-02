@@ -1,4 +1,4 @@
-import { SiteHeader } from "@/components/site-header"
+﻿import { SiteHeader } from "@/components/site-header"
 import { SiteFooter } from "@/components/site-footer"
 import { CallPopup } from "@/components/call-popup"
 import { UtensilsCrossed, Phone, Plane, Coffee, ShoppingCart, AlertTriangle } from "lucide-react"
@@ -8,7 +8,7 @@ import type { Metadata } from "next"
 import Link from "next/link"
 
 export const metadata: Metadata = {
-  title: "AJet İkram Servisi 2026 | Uçak İçi Yiyecek ve İçecek - FlyTR",
+  title: "AJet İkram Servisi 2026 | Uçak İçi Yiyecek ve İçecek - bilethizmeti.com",
   description:
     "AJet uçak içi ikram servisi. Ücretli yiyecek ve içecek seçenekleri, fiyatlar ve menü bilgileri.",
   keywords: "ajet ikram, ajet yemek, ajet uçak içi servis, ajet menü",

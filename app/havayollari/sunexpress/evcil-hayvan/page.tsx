@@ -1,4 +1,4 @@
-import { SiteHeader } from "@/components/site-header"
+﻿import { SiteHeader } from "@/components/site-header"
 import { SiteFooter } from "@/components/site-footer"
 import { CallPopup } from "@/components/call-popup"
 import { PawPrint, Phone, Plane, CheckCircle2, AlertTriangle } from "lucide-react"
@@ -8,7 +8,7 @@ import type { Metadata } from "next"
 import Link from "next/link"
 
 export const metadata: Metadata = {
-  title: "SunExpress Evcil Hayvan Taşıma 2026 | Kurallar - FlyTR",
+  title: "SunExpress Evcil Hayvan Taşıma 2026 | Kurallar - bilethizmeti.com",
   description:
     "SunExpress evcil hayvan taşıma kuralları, ücretleri ve gerekli belgeler hakkında bilgi.",
   keywords: "sunexpress evcil hayvan, sunexpress pet, sunexpress kedi köpek taşıma",

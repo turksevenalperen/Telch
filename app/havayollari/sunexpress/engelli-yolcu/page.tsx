@@ -1,4 +1,4 @@
-import { SiteHeader } from "@/components/site-header"
+﻿import { SiteHeader } from "@/components/site-header"
 import { SiteFooter } from "@/components/site-footer"
 import { CallPopup } from "@/components/call-popup"
 import { Accessibility, Phone, Plane, CheckCircle2, AlertTriangle, Eye, Ear } from "lucide-react"
@@ -8,7 +8,7 @@ import type { Metadata } from "next"
 import Link from "next/link"
 
 export const metadata: Metadata = {
-  title: "SunExpress Engelli Yolcu 2026 | Özel Yardım Hizmetleri - FlyTR",
+  title: "SunExpress Engelli Yolcu 2026 | Özel Yardım Hizmetleri - bilethizmeti.com",
   description:
     "SunExpress engelli yolcu hizmetleri, tekerlekli sandalye, görme ve işitme engelli yardım.",
   keywords: "sunexpress engelli yolcu, sunexpress tekerlekli sandalye, sunexpress özel yardım",

@@ -1,4 +1,4 @@
-import { SiteHeader } from "@/components/site-header"
+﻿import { SiteHeader } from "@/components/site-header"
 import { SiteFooter } from "@/components/site-footer"
 import { CallPopup } from "@/components/call-popup"
 import { Luggage, Phone, Plane, AlertTriangle, CheckCircle2, ShoppingCart } from "lucide-react"
@@ -8,7 +8,7 @@ import type { Metadata } from "next"
 import Link from "next/link"
 
 export const metadata: Metadata = {
-  title: "Pegasus Bagaj Hakkı 2026 | Bagaj Kuralları ve Ücretleri - FlyTR",
+  title: "Pegasus Bagaj Hakkı 2026 | Bagaj Kuralları ve Ücretleri - bilethizmeti.com",
   description:
     "Pegasus bagaj hakkı ve kuralları. Kabin bagajı, check-in bagajı ağırlık limitleri ve ek bagaj ücretleri.",
   keywords: "pegasus bagaj, pegasus bagaj hakkı, pegasus kabin bagajı, pegasus bagaj ücreti",

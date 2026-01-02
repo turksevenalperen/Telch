@@ -1,4 +1,4 @@
-import { SiteHeader } from "@/components/site-header"
+﻿import { SiteHeader } from "@/components/site-header"
 import { SiteFooter } from "@/components/site-footer"
 import { CallPopup } from "@/components/call-popup"
 import { Phone, Globe, MessageCircle, Clock, Plane, Twitter, Instagram, Facebook } from "lucide-react"
@@ -8,7 +8,7 @@ import type { Metadata } from "next"
 import Link from "next/link"
 
 export const metadata: Metadata = {
-  title: "AJet İletişim 2026 | Çağrı Merkezi ve Müşteri Hizmetleri - FlyTR",
+  title: "AJet İletişim 2026 | Çağrı Merkezi ve Müşteri Hizmetleri - bilethizmeti.com",
   description:
     "AJet iletişim bilgileri. AJet çağrı merkezi, müşteri hizmetleri telefon numarası ve sosyal medya destek kanalları.",
   keywords: "ajet iletişim, ajet telefon, ajet çağrı merkezi, ajet müşteri hizmetleri",

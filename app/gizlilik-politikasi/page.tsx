@@ -1,4 +1,4 @@
-import { SiteHeader } from "@/components/site-header"
+﻿import { SiteHeader } from "@/components/site-header"
 import { SiteFooter } from "@/components/site-footer"
 import { CallPopup } from "@/components/call-popup"
 import { Shield, Lock, UserCheck } from "lucide-react"
@@ -6,9 +6,9 @@ import { Card } from "@/components/ui/card"
 import type { Metadata } from "next"
 
 export const metadata: Metadata = {
-  title: "Gizlilik Politikası | Kişisel Verilerin Korunması - FlyTR",
+  title: "Gizlilik Politikası | Kişisel Verilerin Korunması - bilethizmeti.com",
   description:
-    "FlyTR gizlilik politikası. Kişisel verilerinizin nasıl toplandığı, işlendiği, korunduğu ve KVKK kapsamındaki haklarınız hakkında detaylı bilgi.",
+    "bilethizmeti.com gizlilik politikası. Kişisel verilerinizin nasıl toplandığı, işlendiği, korunduğu ve KVKK kapsamındaki haklarınız hakkında detaylı bilgi.",
   keywords: "gizlilik politikası, kişisel veri, KVKK, veri güvenliği, gizlilik",
 }
 
@@ -52,8 +52,8 @@ export default function GizlilikPolitikasiPage() {
             <section className="mb-12">
               <h2 className="text-2xl font-bold mb-4">Giriş</h2>
               <p className="text-muted-foreground mb-4 text-pretty">
-                FlyTR (Doğa Turizm Gıda İşletmeleri Ticaret Limited Şirketi) olarak, kişisel verilerinizin korunması
-                ve gizliliğiniz bizim için son derece önemlidir. Bu gizlilik politikası, www.FlyTR.com.tr web
+                bilethizmeti.com (Doğa Turizm Gıda İşletmeleri Ticaret Limited Şirketi) olarak, kişisel verilerinizin korunması
+                ve gizliliğiniz bizim için son derece önemlidir. Bu gizlilik politikası, www.bilethizmeti.com web
                 sitesini kullanırken kişisel verilerinizin nasıl toplandığı, kullanıldığı ve korunduğu hakkında sizi
                 bilgilendirmek amacıyla hazırlanmıştır.
               </p>
@@ -75,7 +75,7 @@ export default function GizlilikPolitikasiPage() {
                     <strong>Unvan:</strong> Doğa Turizm Gıda İşletmeleri Ticaret Limited Şirketi
                   </p>
                   <p>
-                    <strong>Ticaret Unvanı:</strong> FlyTR
+                    <strong>Ticaret Unvanı:</strong> bilethizmeti.com
                   </p>
                   <p>
                     <strong>Adres:</strong> Ulus Şehit İbrahim Akpınar Cad. No:4 Beşiktaş/İstanbul
@@ -96,10 +96,10 @@ export default function GizlilikPolitikasiPage() {
                     <strong>Telefon:</strong> 0850 303 07 87
                   </p>
                   <p>
-                    <strong>E-posta:</strong> info@FlyTR.com.tr
+                    <strong>E-posta:</strong> info@bilethizmeti.com
                   </p>
                   <p>
-                    <strong>Web:</strong> www.FlyTR.com.tr
+                    <strong>Web:</strong> www.bilethizmeti.com
                   </p>
                   <p>
                     <strong>IATA Kodu:</strong> 8261626
@@ -237,8 +237,8 @@ export default function GizlilikPolitikasiPage() {
               <div className="grid md:grid-cols-3 gap-4">
                 <div>
                   <h3 className="font-semibold mb-2">E-posta</h3>
-                  <a href="mailto:info@FlyTR.com.tr" className="text-primary hover:underline">
-                    info@FlyTR.com.tr
+                  <a href="mailto:info@bilethizmeti.com" className="text-primary hover:underline">
+                    info@bilethizmeti.com
                   </a>
                 </div>
                 <div>

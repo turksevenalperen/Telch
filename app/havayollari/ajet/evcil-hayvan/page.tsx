@@ -1,4 +1,4 @@
-import { SiteHeader } from "@/components/site-header"
+﻿import { SiteHeader } from "@/components/site-header"
 import { SiteFooter } from "@/components/site-footer"
 import { CallPopup } from "@/components/call-popup"
 import { PawPrint, Phone, Plane, AlertTriangle, CheckCircle2, FileText, Box } from "lucide-react"
@@ -8,7 +8,7 @@ import type { Metadata } from "next"
 import Link from "next/link"
 
 export const metadata: Metadata = {
-  title: "AJet Evcil Hayvan Taşıma 2026 | Pet Kuralları ve Ücretler - FlyTR",
+  title: "AJet Evcil Hayvan Taşıma 2026 | Pet Kuralları ve Ücretler - bilethizmeti.com",
   description:
     "AJet evcil hayvan taşıma kuralları. Kedi, köpek uçak yolculuğu, kabin ve kargo taşıma ücretleri.",
   keywords: "ajet evcil hayvan, ajet pet, ajet kedi taşıma, ajet köpek taşıma",

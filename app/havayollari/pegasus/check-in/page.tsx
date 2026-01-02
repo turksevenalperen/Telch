@@ -1,4 +1,4 @@
-import { SiteHeader } from "@/components/site-header"
+﻿import { SiteHeader } from "@/components/site-header"
 import { SiteFooter } from "@/components/site-footer"
 import { CallPopup } from "@/components/call-popup"
 import { CheckSquare, Phone, Plane, Smartphone, Monitor, MapPin, AlertTriangle } from "lucide-react"
@@ -8,7 +8,7 @@ import type { Metadata } from "next"
 import Link from "next/link"
 
 export const metadata: Metadata = {
-  title: "Pegasus Check-in 2026 | Online Check-in Nasıl Yapılır - FlyTR",
+  title: "Pegasus Check-in 2026 | Online Check-in Nasıl Yapılır - bilethizmeti.com",
   description:
     "Pegasus online check-in işlemleri. Web, mobil ve havaalanı check-in adımları. Ne zaman check-in açılır?",
   keywords: "pegasus check-in, pegasus online check-in, pegasus mobil check-in, pegasus check-in nasıl yapılır",

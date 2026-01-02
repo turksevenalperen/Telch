@@ -1,4 +1,4 @@
-import { SiteHeader } from "@/components/site-header"
+﻿import { SiteHeader } from "@/components/site-header"
 import { SiteFooter } from "@/components/site-footer"
 import { CallPopup } from "@/components/call-popup"
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
@@ -9,7 +9,7 @@ import type { Metadata } from "next"
 import Link from "next/link"
 
 export const metadata: Metadata = {
-  title: "THY İletişim 2026 | Türk Hava Yolları Çağrı Merkezi ve İletişim Bilgileri - FlyTR",
+  title: "THY İletişim 2026 | Türk Hava Yolları Çağrı Merkezi ve İletişim Bilgileri - bilethizmeti.com",
   description:
     "Türk Hava Yolları iletişim bilgileri. THY çağrı merkezi 444 0 849, müşteri hizmetleri, sosyal medya ve destek kanalları. 7/24 hizmet.",
   keywords: "thy iletişim, türk hava yolları telefon, thy çağrı merkezi, thy müşteri hizmetleri, 444 0 849",

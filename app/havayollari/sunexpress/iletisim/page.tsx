@@ -1,4 +1,4 @@
-import { SiteHeader } from "@/components/site-header"
+﻿import { SiteHeader } from "@/components/site-header"
 import { SiteFooter } from "@/components/site-footer"
 import { CallPopup } from "@/components/call-popup"
 import { Phone, Plane, Globe, MessageCircle, Mail, Clock } from "lucide-react"
@@ -8,7 +8,7 @@ import type { Metadata } from "next"
 import Link from "next/link"
 
 export const metadata: Metadata = {
-  title: "SunExpress İletişim 2026 | Müşteri Hizmetleri - FlyTR",
+  title: "SunExpress İletişim 2026 | Müşteri Hizmetleri - bilethizmeti.com",
   description:
     "SunExpress müşteri hizmetleri iletişim bilgileri. Çağrı merkezi, canlı destek ve sosyal medya kanalları.",
   keywords: "sunexpress iletişim, sunexpress müşteri hizmetleri, sunexpress telefon",
@@ -103,7 +103,7 @@ export default function SunExpressIletisimPage() {
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-2xl font-bold mb-4">Hızlı Destek Alın</h2>
           <p className="mb-8 opacity-90">
-            FlyTR uzman ekibi SunExpress işlemlerinizde size yardımcı olabilir.
+            bilethizmeti.com uzman ekibi SunExpress işlemlerinizde size yardımcı olabilir.
           </p>
           <Button size="lg" variant="secondary" className="gap-2" asChild>
             <a href="tel:08503030787">

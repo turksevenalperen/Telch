@@ -1,4 +1,4 @@
-import { SiteHeader } from "@/components/site-header"
+﻿import { SiteHeader } from "@/components/site-header"
 import { SiteFooter } from "@/components/site-footer"
 import { CallPopup } from "@/components/call-popup"
 import { XCircle, Phone, Plane, CheckCircle2, AlertTriangle } from "lucide-react"
@@ -8,7 +8,7 @@ import type { Metadata } from "next"
 import Link from "next/link"
 
 export const metadata: Metadata = {
-  title: "SunExpress Bilet İptali 2026 | İptal ve İade Koşulları - FlyTR",
+  title: "SunExpress Bilet İptali 2026 | İptal ve İade Koşulları - bilethizmeti.com",
   description:
     "SunExpress bilet iptali nasıl yapılır? İade koşulları ve kesinti oranları. SunLight, SunEco, SunClassic iptal kuralları.",
   keywords: "sunexpress bilet iptali, sunexpress iade, sunexpress iptal ücreti, sunexpress bilet iptal",

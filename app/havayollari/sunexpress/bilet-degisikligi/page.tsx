@@ -1,4 +1,4 @@
-import { SiteHeader } from "@/components/site-header"
+﻿import { SiteHeader } from "@/components/site-header"
 import { SiteFooter } from "@/components/site-footer"
 import { CallPopup } from "@/components/call-popup"
 import { RefreshCw, Phone, Plane, CheckCircle2, XCircle, AlertTriangle } from "lucide-react"
@@ -8,7 +8,7 @@ import type { Metadata } from "next"
 import Link from "next/link"
 
 export const metadata: Metadata = {
-  title: "SunExpress Bilet Değişikliği 2026 | Tarih ve İsim Değişikliği - FlyTR",
+  title: "SunExpress Bilet Değişikliği 2026 | Tarih ve İsim Değişikliği - bilethizmeti.com",
   description:
     "SunExpress bilet değişikliği nasıl yapılır? Tarih değişikliği ücreti, isim düzeltme ve koşulları.",
   keywords: "sunexpress bilet değişikliği, sunexpress tarih değişikliği, sunexpress isim değişikliği",

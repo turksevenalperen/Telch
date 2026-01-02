@@ -1,4 +1,4 @@
-import { SiteHeader } from "@/components/site-header"
+﻿import { SiteHeader } from "@/components/site-header"
 import { SiteFooter } from "@/components/site-footer"
 import { CallPopup } from "@/components/call-popup"
 import { Armchair, Phone, Plane, AlertTriangle, CheckCircle2, Star } from "lucide-react"
@@ -8,7 +8,7 @@ import type { Metadata } from "next"
 import Link from "next/link"
 
 export const metadata: Metadata = {
-  title: "AJet Koltuk Seçimi 2026 | Koltuk Ücretleri ve Rehber - FlyTR",
+  title: "AJet Koltuk Seçimi 2026 | Koltuk Ücretleri ve Rehber - bilethizmeti.com",
   description:
     "AJet koltuk seçimi nasıl yapılır? Standart, ön sıra ve acil çıkış koltuk ücretleri ve kuralları.",
   keywords: "ajet koltuk seçimi, ajet koltuk ücreti, ajet extra legroom, ajet ön sıra koltuk",

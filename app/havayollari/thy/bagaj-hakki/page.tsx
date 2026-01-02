@@ -1,4 +1,4 @@
-import { SiteHeader } from "@/components/site-header"
+﻿import { SiteHeader } from "@/components/site-header"
 import { SiteFooter } from "@/components/site-footer"
 import { CallPopup } from "@/components/call-popup"
 import { Luggage, CheckCircle2, AlertCircle, Info, Phone, Plane } from "lucide-react"
@@ -8,7 +8,7 @@ import type { Metadata } from "next"
 import Link from "next/link"
 
 export const metadata: Metadata = {
-  title: "THY Bagaj Hakkı 2025 | Türk Hava Yolları Bagaj Kuralları - FlyTR",
+  title: "THY Bagaj Hakkı 2025 | Türk Hava Yolları Bagaj Kuralları - bilethizmeti.com",
   description:
     "Türk Hava Yolları bagaj hakları, ağırlık limitleri ve boyut bilgileri. THY yurtiçi ve yurtdışı uçuşlarda kaç kg bagaj hakkınız var? Güncel bagaj kuralları.",
   keywords: "thy bagaj hakkı, türk hava yolları bagaj, thy bagaj kg, thy bagaj ücreti, thy el bagajı, thy kabin bagajı",

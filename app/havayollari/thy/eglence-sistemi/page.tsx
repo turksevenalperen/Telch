@@ -1,4 +1,4 @@
-import { SiteHeader } from "@/components/site-header"
+﻿import { SiteHeader } from "@/components/site-header"
 import { SiteFooter } from "@/components/site-footer"
 import { CallPopup } from "@/components/call-popup"
 import { Tv, Phone, Plane, Film, Music, Gamepad2, Map, Baby, Wifi, Headphones } from "lucide-react"
@@ -8,7 +8,7 @@ import type { Metadata } from "next"
 import Link from "next/link"
 
 export const metadata: Metadata = {
-  title: "THY Eğlence Sistemi 2026 | Planet Entertainment Özellikleri - FlyTR",
+  title: "THY Eğlence Sistemi 2026 | Planet Entertainment Özellikleri - bilethizmeti.com",
   description:
     "Türk Hava Yolları uçak içi eğlence sistemi. Planet Entertainment ile film, dizi, müzik, oyun ve canlı uçuş haritası.",
   keywords: "thy eğlence sistemi, türk hava yolları planet, thy film, thy uçak içi eğlence, planet entertainment",

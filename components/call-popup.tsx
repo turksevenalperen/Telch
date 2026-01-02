@@ -1,4 +1,4 @@
-"use client"
+﻿"use client"
 
 import { useState, useEffect } from "react"
 import { Phone, X, ShoppingCart, Edit, Ban } from "lucide-react"
@@ -45,7 +45,7 @@ export function CallPopup() {
               <Phone className="h-6 w-6" />
             </div>
             <div>
-              <h3 className="text-lg font-bold">FlyTR İletişim</h3>
+              <h3 className="text-lg font-bold">bilethizmeti.com İletişim</h3>
               <p className="text-sm opacity-90">Hızlı Arama Numaraları</p>
             </div>
           </div>

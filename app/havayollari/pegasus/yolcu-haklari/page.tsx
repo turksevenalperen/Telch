@@ -1,4 +1,4 @@
-import { SiteHeader } from "@/components/site-header"
+﻿import { SiteHeader } from "@/components/site-header"
 import { SiteFooter } from "@/components/site-footer"
 import { CallPopup } from "@/components/call-popup"
 import { Scale, Phone, Plane, CheckCircle2, Clock, AlertTriangle, Euro } from "lucide-react"
@@ -8,7 +8,7 @@ import type { Metadata } from "next"
 import Link from "next/link"
 
 export const metadata: Metadata = {
-  title: "Pegasus Yolcu Hakları 2026 | Tazminat ve Haklarınız - FlyTR",
+  title: "Pegasus Yolcu Hakları 2026 | Tazminat ve Haklarınız - bilethizmeti.com",
   description:
     "Pegasus yolcu hakları, iptal ve rötar tazminatları, EU261 hakları. Bagaj kaybı ve hasarında tazminat bilgileri.",
   keywords: "pegasus yolcu hakları, pegasus tazminat, pegasus rötar hakkı, pegasus bagaj kaybı",

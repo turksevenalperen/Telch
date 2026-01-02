@@ -1,4 +1,4 @@
-import { SiteHeader } from "@/components/site-header"
+﻿import { SiteHeader } from "@/components/site-header"
 import { SiteFooter } from "@/components/site-footer"
 import { CallPopup } from "@/components/call-popup"
 import { MapPin, Phone, Plane, Clock, Globe, TrendingUp } from "lucide-react"
@@ -8,7 +8,7 @@ import type { Metadata } from "next"
 import Link from "next/link"
 
 export const metadata: Metadata = {
-  title: "THY Popüler Rotalar 2026 | En Çok Tercih Edilen Destinasyonlar - FlyTR",
+  title: "THY Popüler Rotalar 2026 | En Çok Tercih Edilen Destinasyonlar - bilethizmeti.com",
   description:
     "Türk Hava Yolları en popüler uçuş rotaları. İstanbul çıkışlı yurtiçi ve yurtdışı en çok tercih edilen destinasyonlar.",
   keywords: "thy rotalar, türk hava yolları destinasyonlar, thy uçuş noktaları, istanbul uçuşları",

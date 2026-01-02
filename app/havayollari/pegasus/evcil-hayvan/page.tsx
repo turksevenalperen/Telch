@@ -1,4 +1,4 @@
-import { SiteHeader } from "@/components/site-header"
+﻿import { SiteHeader } from "@/components/site-header"
 import { SiteFooter } from "@/components/site-footer"
 import { CallPopup } from "@/components/call-popup"
 import { PawPrint, Phone, Plane, CheckCircle2, XCircle, AlertTriangle } from "lucide-react"
@@ -8,7 +8,7 @@ import type { Metadata } from "next"
 import Link from "next/link"
 
 export const metadata: Metadata = {
-  title: "Pegasus Evcil Hayvan Taşıma 2026 | Kurallar ve Ücretler - FlyTR",
+  title: "Pegasus Evcil Hayvan Taşıma 2026 | Kurallar ve Ücretler - bilethizmeti.com",
   description:
     "Pegasus evcil hayvan taşıma kuralları, kabin ve kargo ücretleri. Kedi, köpek ve diğer hayvanlar için uçuş bilgileri.",
   keywords: "pegasus evcil hayvan, pegasus kedi köpek, pegasus pet taşıma, pegasus hayvan ücreti",

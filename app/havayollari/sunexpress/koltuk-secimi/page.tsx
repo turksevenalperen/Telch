@@ -1,4 +1,4 @@
-import { SiteHeader } from "@/components/site-header"
+﻿import { SiteHeader } from "@/components/site-header"
 import { SiteFooter } from "@/components/site-footer"
 import { CallPopup } from "@/components/call-popup"
 import { Armchair, Phone, Plane, CheckCircle2, AlertTriangle } from "lucide-react"
@@ -8,7 +8,7 @@ import type { Metadata } from "next"
 import Link from "next/link"
 
 export const metadata: Metadata = {
-  title: "SunExpress Koltuk Seçimi 2026 | Ücretler ve Koltuk Tipleri - FlyTR",
+  title: "SunExpress Koltuk Seçimi 2026 | Ücretler ve Koltuk Tipleri - bilethizmeti.com",
   description:
     "SunExpress koltuk seçimi ücretleri, koltuk tipleri ve extra legroom seçenekleri hakkında bilgi.",
   keywords: "sunexpress koltuk seçimi, sunexpress koltuk ücreti, sunexpress extra legroom",

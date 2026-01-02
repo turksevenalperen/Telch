@@ -1,5 +1,6 @@
-import { Plane, Phone, Mail, Globe, Shield } from "lucide-react"
+﻿import { Plane, Phone, Mail, Globe, Shield } from "lucide-react"
 import Link from "next/link"
+import Image from "next/image"
 
 export function SiteFooter() {
   return (
@@ -7,9 +8,13 @@ export function SiteFooter() {
       <div className="container mx-auto px-4">
         <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-5">
           <div>
-            <div className="flex items-center gap-2 mb-4">
-              <Plane className="h-5 w-5 text-primary" />
-              <span className="font-semibold">FlyTR</span>
+            <div className="flex items-center gap-3 mb-4">
+              <Image src="/ucak.jpeg" alt="bilethizmeti.com" width={40} height={40} className="rounded-lg" />
+              <span className="font-bold text-lg">
+                <span className="text-blue-600">bilet</span>
+                <span className="text-orange-500">hizmeti</span>
+                <span className="text-blue-800">.com</span>
+              </span>
             </div>
             <p className="text-sm text-muted-foreground mb-4 text-pretty">
               Türkiye&apos;nin güvenilir uçak bileti satış platformu. En uygun fiyatlarla dünyaya açılın.
@@ -23,14 +28,14 @@ export function SiteFooter() {
               </div>
               <div className="flex items-center gap-2">
                 <Mail className="h-4 w-4 text-primary" />
-                <a href="mailto:info@FlyTR.com.tr" className="hover:text-primary">
-                  info@FlyTR.com.tr
+                <a href="mailto:info@bilethizmeti.com" className="hover:text-primary">
+                  info@bilethizmeti.com
                 </a>
               </div>
               <div className="flex items-center gap-2">
                 <Globe className="h-4 w-4 text-primary" />
-                <a href="https://www.FlyTR.com.tr" className="hover:text-primary">
-                  www.FlyTR.com.tr
+                <a href="https://www.bilethizmeti.com" className="hover:text-primary">
+                  www.bilethizmeti.com
                 </a>
               </div>
             </div>
@@ -148,14 +153,14 @@ export function SiteFooter() {
             <div className="inline-block rounded-lg bg-accent px-4 py-3 mb-4">
               <p className="text-sm font-medium">Önemli Bilgilendirme</p>
               <p className="text-xs text-muted-foreground mt-1">
-                FlyTR bir seyahat acentesidir. Havayolu şirketi değiliz. Bilet satışı, değişiklik ve iptal
+                bilethizmeti.com bir seyahat acentesidir. Havayolu şirketi değiliz. Bilet satışı, değişiklik ve iptal
                 işlemlerinde aracılık hizmeti sunmaktayız.
               </p>
             </div>
           </div>
 
           <div className="text-center text-sm text-muted-foreground mt-6">
-            <p>© 2026 FlyTR. Tüm hakları saklıdır.</p>
+            <p>© 2026 bilethizmeti.com. Tüm hakları saklıdır.</p>
             <div className="mt-2 flex items-center justify-center gap-2 flex-wrap">
               <Link href="/kullanim-sartlari" className="hover:text-primary">
                 Kullanım Şartları

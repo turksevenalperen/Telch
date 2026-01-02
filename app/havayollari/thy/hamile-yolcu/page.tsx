@@ -1,4 +1,4 @@
-import { SiteHeader } from "@/components/site-header"
+﻿import { SiteHeader } from "@/components/site-header"
 import { SiteFooter } from "@/components/site-footer"
 import { CallPopup } from "@/components/call-popup"
 import { Baby, Phone, Plane, FileText, AlertTriangle, CheckCircle2, Clock, Heart } from "lucide-react"
@@ -8,7 +8,7 @@ import type { Metadata } from "next"
 import Link from "next/link"
 
 export const metadata: Metadata = {
-  title: "THY Hamile Yolcu 2026 | Gebelikte Uçuş Kuralları - FlyTR",
+  title: "THY Hamile Yolcu 2026 | Gebelikte Uçuş Kuralları - bilethizmeti.com",
   description:
     "Türk Hava Yolları hamile yolcu kuralları. Gebelik haftasına göre uçuş izinleri, gerekli belgeler ve sağlık tavsiyeleri.",
   keywords: "thy hamile yolcu, gebelikte uçuş, hamile uçak yolculuğu, thy hamile kuralları",

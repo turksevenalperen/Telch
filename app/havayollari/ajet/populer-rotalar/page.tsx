@@ -1,4 +1,4 @@
-import { SiteHeader } from "@/components/site-header"
+﻿import { SiteHeader } from "@/components/site-header"
 import { SiteFooter } from "@/components/site-footer"
 import { CallPopup } from "@/components/call-popup"
 import { MapPin, Phone, Plane, Clock, TrendingUp } from "lucide-react"
@@ -8,7 +8,7 @@ import type { Metadata } from "next"
 import Link from "next/link"
 
 export const metadata: Metadata = {
-  title: "AJet Popüler Rotalar 2026 | En Çok Uçulan Hatlar - FlyTR",
+  title: "AJet Popüler Rotalar 2026 | En Çok Uçulan Hatlar - bilethizmeti.com",
   description:
     "AJet en popüler uçuş rotaları. İstanbul, Ankara, İzmir, Antalya başta olmak üzere en çok tercih edilen hatlar.",
   keywords: "ajet rotalar, ajet uçuş hatları, ajet destinasyonlar, ajet popüler uçuşlar",

@@ -1,4 +1,4 @@
-import { SiteHeader } from "@/components/site-header"
+﻿import { SiteHeader } from "@/components/site-header"
 import { SiteFooter } from "@/components/site-footer"
 import { CallPopup } from "@/components/call-popup"
 import { Smartphone, Phone, Plane, CheckCircle2, Download, CreditCard, MapPin } from "lucide-react"
@@ -8,7 +8,7 @@ import type { Metadata } from "next"
 import Link from "next/link"
 
 export const metadata: Metadata = {
-  title: "SunExpress Mobil Hizmetler 2026 | Mobil Uygulama - FlyTR",
+  title: "SunExpress Mobil Hizmetler 2026 | Mobil Uygulama - bilethizmeti.com",
   description:
     "SunExpress mobil uygulama özellikleri, bilet alma, check-in ve uçuş takibi.",
   keywords: "sunexpress mobil, sunexpress uygulama, sunexpress app",

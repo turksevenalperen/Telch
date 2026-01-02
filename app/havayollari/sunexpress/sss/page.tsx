@@ -1,4 +1,4 @@
-import { SiteHeader } from "@/components/site-header"
+﻿import { SiteHeader } from "@/components/site-header"
 import { SiteFooter } from "@/components/site-footer"
 import { CallPopup } from "@/components/call-popup"
 import { HelpCircle, Phone, Plane, ChevronDown } from "lucide-react"
@@ -8,7 +8,7 @@ import type { Metadata } from "next"
 import Link from "next/link"
 
 export const metadata: Metadata = {
-  title: "SunExpress Sık Sorulan Sorular 2026 | SSS - FlyTR",
+  title: "SunExpress Sık Sorulan Sorular 2026 | SSS - bilethizmeti.com",
   description:
     "SunExpress hakkında sık sorulan sorular ve cevapları. Bagaj, check-in, bilet değişikliği ve daha fazlası.",
   keywords: "sunexpress sss, sunexpress sık sorulan sorular, sunexpress yardım",

@@ -1,4 +1,4 @@
-import { SiteHeader } from "@/components/site-header"
+﻿import { SiteHeader } from "@/components/site-header"
 import { SiteFooter } from "@/components/site-footer"
 import { CallPopup } from "@/components/call-popup"
 import { Shield, Scale, CheckCircle2, AlertCircle } from "lucide-react"
@@ -6,13 +6,13 @@ import { Card } from "@/components/ui/card"
 import type { Metadata } from "next"
 
 export const metadata: Metadata = {
-  title: "Kullanım Şartları - FlyTR | Yasal Şartlar ve Koşullar",
+  title: "Kullanım Şartları - bilethizmeti.com | Yasal Şartlar ve Koşullar",
   description:
-    "FlyTR kullanım şartları. Web sitesi kullanım kuralları, rezervasyon şartları, iptal ve iade politikası, yasal uyumluluk ve müşteri sorumlulukları hakkında detaylı bilgi.",
+    "bilethizmeti.com kullanım şartları. Web sitesi kullanım kuralları, rezervasyon şartları, iptal ve iade politikası, yasal uyumluluk ve müşteri sorumlulukları hakkında detaylı bilgi.",
   keywords:
     "kullanım şartları, yasal şartlar, rezervasyon kuralları, iptal şartları, müşteri sorumlulukları, hizmet koşulları",
   openGraph: {
-    title: "Kullanım Şartları - FlyTR",
+    title: "Kullanım Şartları - bilethizmeti.com",
     description: "Web sitemizi kullanırken uymanız gereken kurallar ve şartlar hakkında detaylı bilgilendirme.",
   },
 }
@@ -71,11 +71,11 @@ export default function TermsPage() {
             <Card className="p-8 mb-8">
               <h2 className="text-2xl font-bold mb-4">Giriş</h2>
               <p className="text-muted-foreground mb-4 text-pretty">
-                Bu kullanım şartları, www.FlyTR.com.tr web sitesini kullanırken uymanız gereken kuralları ve
+                Bu kullanım şartları, www.bilethizmeti.com web sitesini kullanırken uymanız gereken kuralları ve
                 koşulları belirler. Web sitemizi kullanarak bu şartları kabul etmiş sayılırsınız.
               </p>
               <p className="text-muted-foreground text-pretty">
-                FlyTR (Doğa Turizm Gıda İşletmeleri Ticaret Limited Şirketi) olarak, müşterilerimize en iyi hizmeti
+                bilethizmeti.com (Doğa Turizm Gıda İşletmeleri Ticaret Limited Şirketi) olarak, müşterilerimize en iyi hizmeti
                 sunmak ve yasal yükümlülüklerimizi yerine getirmek amacıyla bu kullanım şartlarını hazırladık.
               </p>
             </Card>
@@ -111,7 +111,7 @@ export default function TermsPage() {
             <Card className="p-8 mb-8 bg-accent/20">
               <h2 className="text-2xl font-bold mb-4">Hizmet Tanımı</h2>
               <p className="text-muted-foreground mb-4 text-pretty">
-                FlyTR bir seyahat acentesidir ve havayolu şirketi değildir. Aşağıdaki hizmetleri sunmaktayız:
+                bilethizmeti.com bir seyahat acentesidir ve havayolu şirketi değildir. Aşağıdaki hizmetleri sunmaktayız:
               </p>
 
               <div className="grid md:grid-cols-2 gap-4">
@@ -249,7 +249,7 @@ export default function TermsPage() {
               <h2 className="text-2xl font-bold mb-4">Sorumluluk ve Sınırlamalar</h2>
 
               <div className="mb-6">
-                <h4 className="font-semibold mb-3">FlyTR&apos;ın Sorumlulukları</h4>
+                <h4 className="font-semibold mb-3">bilethizmeti.com&apos;ın Sorumlulukları</h4>
                 <div className="space-y-2">
                   {[
                     "Doğru bilet bilgilerini havayolu şirketine iletmek",
@@ -268,9 +268,9 @@ export default function TermsPage() {
               <div className="p-4 bg-muted rounded-lg">
                 <h4 className="font-semibold mb-2">Sorumluluk Sınırları</h4>
                 <p className="text-sm text-muted-foreground text-pretty">
-                  FlyTR, havayolu şirketlerinin operasyonel kararlarından, uçuş iptalleri, gecikmeler ve bagaj
+                  bilethizmeti.com, havayolu şirketlerinin operasyonel kararlarından, uçuş iptalleri, gecikmeler ve bagaj
                   kayıplarından sorumlu değildir. Bu durumlar doğrudan havayolu şirketinin sorumluluğundadır. Teknik
-                  arızalar, doğal afetler ve mücbir sebeplerden kaynaklanan hizmet kesintilerinden FlyTR sorumlu
+                  arızalar, doğal afetler ve mücbir sebeplerden kaynaklanan hizmet kesintilerinden bilethizmeti.com sorumlu
                   tutulamaz.
                 </p>
               </div>
@@ -302,7 +302,7 @@ export default function TermsPage() {
                 </div>
                 <div>
                   <p className="font-semibold mb-1">E-posta</p>
-                  <p className="opacity-90">info@FlyTR.com.tr</p>
+                  <p className="opacity-90">info@bilethizmeti.com</p>
                 </div>
                 <div>
                   <p className="font-semibold mb-1">Çalışma Saatleri</p>

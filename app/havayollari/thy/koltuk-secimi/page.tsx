@@ -1,4 +1,4 @@
-import { SiteHeader } from "@/components/site-header"
+﻿import { SiteHeader } from "@/components/site-header"
 import { SiteFooter } from "@/components/site-footer"
 import { CallPopup } from "@/components/call-popup"
 import { Armchair, CheckCircle2, AlertCircle, Info, Phone, Plane, Crown, Sparkles, DoorOpen } from "lucide-react"
@@ -8,7 +8,7 @@ import type { Metadata } from "next"
 import Link from "next/link"
 
 export const metadata: Metadata = {
-  title: "THY Koltuk Seçimi 2025 | Türk Hava Yolları Koltuk Rehberi - FlyTR",
+  title: "THY Koltuk Seçimi 2025 | Türk Hava Yolları Koltuk Rehberi - bilethizmeti.com",
   description:
     "Türk Hava Yolları koltuk seçimi rehberi. THY uçuşlarında standart, extra legroom ve acil çıkış koltukları. Koltuk seçim ücretleri ve kuralları.",
   keywords: "thy koltuk seçimi, türk hava yolları koltuk, thy extra legroom, thy acil çıkış koltuğu, thy koltuk ücreti",
@@ -178,7 +178,7 @@ export default function THYKoltukSecimiPage() {
                 {
                   adim: 4,
                   baslik: "Çağrı Merkezi",
-                  aciklama: "FlyTR müşteri hizmetlerini arayarak koltuk tercihinizi belirtebilirsiniz.",
+                  aciklama: "bilethizmeti.com müşteri hizmetlerini arayarak koltuk tercihinizi belirtebilirsiniz.",
                 },
               ].map((item) => (
                 <Card key={item.adim} className="p-6">

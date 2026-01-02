@@ -1,4 +1,4 @@
-import { SiteHeader } from "@/components/site-header"
+﻿import { SiteHeader } from "@/components/site-header"
 import { SiteFooter } from "@/components/site-footer"
 import { CallPopup } from "@/components/call-popup"
 import { UtensilsCrossed, Phone, Plane, Coffee, Wine, Leaf, Baby, Clock, ChefHat } from "lucide-react"
@@ -8,7 +8,7 @@ import type { Metadata } from "next"
 import Link from "next/link"
 
 export const metadata: Metadata = {
-  title: "THY İkram Servisi 2026 | Uçak İçi Yemek ve İçecekler - FlyTR",
+  title: "THY İkram Servisi 2026 | Uçak İçi Yemek ve İçecekler - bilethizmeti.com",
   description:
     "Türk Hava Yolları uçak içi ikram servisi. Ekonomi ve Business Class yemek menüleri, özel diyet seçenekleri ve Flying Chef hizmeti.",
   keywords: "thy yemek, türk hava yolları ikram, thy menü, uçak yemeği, thy özel yemek",

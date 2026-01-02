@@ -1,4 +1,4 @@
-import { SiteHeader } from "@/components/site-header"
+﻿import { SiteHeader } from "@/components/site-header"
 import { SiteFooter } from "@/components/site-footer"
 import { CallPopup } from "@/components/call-popup"
 import { MapPin, Phone, Plane, Globe } from "lucide-react"
@@ -8,7 +8,7 @@ import type { Metadata } from "next"
 import Link from "next/link"
 
 export const metadata: Metadata = {
-  title: "SunExpress Popüler Rotalar 2026 | En Çok Uçulan Hatlar - FlyTR",
+  title: "SunExpress Popüler Rotalar 2026 | En Çok Uçulan Hatlar - bilethizmeti.com",
   description:
     "SunExpress popüler uçuş rotaları, Antalya, İzmir ve Avrupa hatları.",
   keywords: "sunexpress rotalar, sunexpress antalya, sunexpress izmir, sunexpress avrupa",

@@ -1,4 +1,4 @@
-import { SiteHeader } from "@/components/site-header"
+﻿import { SiteHeader } from "@/components/site-header"
 import { SiteFooter } from "@/components/site-footer"
 import { CallPopup } from "@/components/call-popup"
 import { Baby, Phone, Plane, CheckCircle2, AlertTriangle, XCircle } from "lucide-react"
@@ -8,7 +8,7 @@ import type { Metadata } from "next"
 import Link from "next/link"
 
 export const metadata: Metadata = {
-  title: "SunExpress Hamile Yolcu 2026 | Gebelik Kuralları - FlyTR",
+  title: "SunExpress Hamile Yolcu 2026 | Gebelik Kuralları - bilethizmeti.com",
   description:
     "SunExpress hamile yolcu politikası, gebelik haftasına göre uçuş kuralları ve gerekli belgeler.",
   keywords: "sunexpress hamile yolcu, sunexpress gebelik, sunexpress hamile uçuş",

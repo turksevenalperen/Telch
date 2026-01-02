@@ -1,4 +1,4 @@
-"use client"
+﻿"use client"
 
 import { Shield, Clock, Award, CheckCircle2, Phone, Headphones, MessageCircle, Users } from "lucide-react"
 import { Button } from "@/components/ui/button"
@@ -35,7 +35,7 @@ export default function Home() {
               <span>IATA & TÜRSAB Üyesi</span>
             </div>
 
-            <h2 className="mb-2 text-2xl font-bold text-white/90 md:text-3xl">FlyTR</h2>
+            <h2 className="mb-2 text-2xl font-bold text-white/90 md:text-3xl">bilethizmeti.com</h2>
 
             <h1 className="mb-6 text-4xl font-bold tracking-tight md:text-6xl text-balance">
               <span className="text-white">Dünyaya</span>{" "}
@@ -82,11 +82,11 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Why FlyTR Section */}
+      {/* Why bilethizmeti.com Section */}
       <section className="py-20 bg-accent/20">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold mb-4 text-balance">Neden FlyTR?</h2>
+            <h2 className="text-3xl font-bold mb-4 text-balance">Neden bilethizmeti.com?</h2>
             <p className="text-muted-foreground text-pretty max-w-2xl mx-auto">
               Güvenilir ve kaliteli hizmet garantimiz
             </p>
@@ -136,13 +136,13 @@ export default function Home() {
               <div className="inline-block rounded-lg bg-primary/10 px-3 py-1 text-sm font-medium text-primary mb-4">
                 Hakkımızda
               </div>
-              <h2 className="text-3xl font-bold mb-6 text-balance">FlyTR Hakkında</h2>
+              <h2 className="text-3xl font-bold mb-6 text-balance">bilethizmeti.com Hakkında</h2>
               <p className="text-muted-foreground mb-4 text-pretty">
                 Türkiye&apos;nin önde gelen uçak bileti satış platformu olarak, size en uygun fiyatlarla güvenli seyahat
                 deneyimi sunuyoruz.
               </p>
               <p className="text-muted-foreground mb-6 text-pretty">
-                FlyTR, 2010 yılında Türkiye&apos;de kurulan ve havacılık sektöründe güvenilir hizmet anlayışıyla öne
+                bilethizmeti.com, 2010 yılında Türkiye&apos;de kurulan ve havacılık sektöründe güvenilir hizmet anlayışıyla öne
                 çıkan bir seyahat acentesidir. 14 yıllık deneyimimiz boyunca, müşteri odaklı yaklaşımımız ve yenilikçi
                 çözümlerimizle sektörün öncü firmalarından biri haline geldik.
               </p>
@@ -167,7 +167,7 @@ export default function Home() {
               <Card className="p-6">
                 <h3 className="font-semibold mb-3">Hizmet Anlayışımız</h3>
                 <p className="text-sm text-muted-foreground text-pretty">
-                  FlyTR olarak, sadece uçak bileti satışı yapmakla kalmayıp, müşterilerimizin seyahat sürecinin her
+                  bilethizmeti.com olarak, sadece uçak bileti satışı yapmakla kalmayıp, müşterilerimizin seyahat sürecinin her
                   aşamasında yanlarında olmayı hedefliyoruz.
                 </p>
               </Card>
@@ -197,7 +197,7 @@ export default function Home() {
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold mb-4 text-balance">Hizmetlerimiz</h2>
             <p className="text-muted-foreground text-pretty max-w-2xl mx-auto">
-              FlyTR&apos;ın kapsamlı hizmet ağı ile seyahat ihtiyaçlarınızın tamamını karşılıyoruz
+              bilethizmeti.com&apos;ın kapsamlı hizmet ağı ile seyahat ihtiyaçlarınızın tamamını karşılıyoruz
             </p>
           </div>
 
@@ -351,9 +351,9 @@ export default function Home() {
       {/* CTA Section */}
       <section className="py-20 bg-primary text-primary-foreground">
         <div className="container mx-auto px-4 text-center">
-          <h2 className="text-3xl font-bold mb-4 text-balance">Neden FlyTR?</h2>
+          <h2 className="text-3xl font-bold mb-4 text-balance">Neden bilethizmeti.com?</h2>
           <p className="text-lg mb-8 max-w-2xl mx-auto opacity-90 text-pretty">
-            2010&apos;dan beri Türkiye&apos;de hizmet veren FlyTR, milyonlarca müşterisine güvenli ve ekonomik
+            2010&apos;dan beri Türkiye&apos;de hizmet veren bilethizmeti.com, milyonlarca müşterisine güvenli ve ekonomik
             seyahat imkanı sunmaktadır.
           </p>
 

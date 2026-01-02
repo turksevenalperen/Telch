@@ -1,4 +1,4 @@
-import { SiteHeader } from "@/components/site-header"
+﻿import { SiteHeader } from "@/components/site-header"
 import { SiteFooter } from "@/components/site-footer"
 import { CallPopup } from "@/components/call-popup"
 import { CheckSquare, Phone, Plane, Smartphone, Monitor, MapPin, Clock, AlertTriangle } from "lucide-react"
@@ -8,7 +8,7 @@ import type { Metadata } from "next"
 import Link from "next/link"
 
 export const metadata: Metadata = {
-  title: "AJet Check-in 2026 | Online Check-in Nasıl Yapılır - FlyTR",
+  title: "AJet Check-in 2026 | Online Check-in Nasıl Yapılır - bilethizmeti.com",
   description:
     "AJet online check-in işlemleri. Web, mobil ve havaalanı check-in adımları. Ne zaman check-in açılır?",
   keywords: "ajet check-in, ajet online check-in, ajet mobil check-in, ajet check-in nasıl yapılır",

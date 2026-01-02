@@ -1,4 +1,4 @@
-import { SiteHeader } from "@/components/site-header"
+﻿import { SiteHeader } from "@/components/site-header"
 import { SiteFooter } from "@/components/site-footer"
 import { CallPopup } from "@/components/call-popup"
 import { Ban, CheckCircle2, AlertCircle, Clock, Phone, Plane, CreditCard } from "lucide-react"
@@ -8,7 +8,7 @@ import type { Metadata } from "next"
 import Link from "next/link"
 
 export const metadata: Metadata = {
-  title: "THY Bilet İptali 2025 | Türk Hava Yolları İptal ve İade Kuralları - FlyTR",
+  title: "THY Bilet İptali 2025 | Türk Hava Yolları İptal ve İade Kuralları - bilethizmeti.com",
   description:
     "Türk Hava Yolları bilet iptal işlemleri, iade koşulları ve kesinti oranları. THY biletinizi nasıl iptal edersiniz? Güncel iptal kuralları ve ücret iadesi bilgileri.",
   keywords: "thy bilet iptali, türk hava yolları iptal, thy iade, thy bilet iptal ücreti, thy iptal koşulları",
@@ -117,7 +117,7 @@ export default function THYBiletIptaliPage() {
               {[
                 {
                   adim: 1,
-                  baslik: "FlyTR ile İletişime Geçin",
+                  baslik: "bilethizmeti.com ile İletişime Geçin",
                   aciklama: "7/24 çağrı merkezimizi arayarak bilet iptal talebinizi iletin. PNR kodunuz ve yolcu bilgileriniz hazır olsun.",
                 },
                 {

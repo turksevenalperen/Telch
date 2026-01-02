@@ -1,4 +1,4 @@
-import { SiteHeader } from "@/components/site-header"
+﻿import { SiteHeader } from "@/components/site-header"
 import { SiteFooter } from "@/components/site-footer"
 import { CallPopup } from "@/components/call-popup"
 import { HelpCircle, Phone, Plane, ChevronDown } from "lucide-react"
@@ -8,7 +8,7 @@ import type { Metadata } from "next"
 import Link from "next/link"
 
 export const metadata: Metadata = {
-  title: "THY Sık Sorulan Sorular 2026 | SSS ve Cevaplar - FlyTR",
+  title: "THY Sık Sorulan Sorular 2026 | SSS ve Cevaplar - bilethizmeti.com",
   description:
     "Türk Hava Yolları sık sorulan sorular. THY bilet, bagaj, check-in, iptal ve değişiklik hakkında merak edilenler.",
   keywords: "thy sss, türk hava yolları sorular, thy yardım, thy sıkça sorulan sorular",

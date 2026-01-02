@@ -1,4 +1,4 @@
-import { SiteHeader } from "@/components/site-header"
+﻿import { SiteHeader } from "@/components/site-header"
 import { SiteFooter } from "@/components/site-footer"
 import { CallPopup } from "@/components/call-popup"
 import { RefreshCw, Phone, Plane, AlertTriangle, CheckCircle2, Calendar, Clock } from "lucide-react"
@@ -8,7 +8,7 @@ import type { Metadata } from "next"
 import Link from "next/link"
 
 export const metadata: Metadata = {
-  title: "Pegasus Bilet Değişikliği 2026 | Tarih ve Saat Değişikliği - FlyTR",
+  title: "Pegasus Bilet Değişikliği 2026 | Tarih ve Saat Değişikliği - bilethizmeti.com",
   description:
     "Pegasus bilet değişikliği nasıl yapılır? Tarih, saat değişiklik kuralları ve ücretleri hakkında bilgi.",
   keywords: "pegasus bilet değişikliği, pegasus tarih değişikliği, pegasus uçuş değişikliği",

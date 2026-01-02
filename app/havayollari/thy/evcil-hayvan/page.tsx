@@ -1,4 +1,4 @@
-import { SiteHeader } from "@/components/site-header"
+﻿import { SiteHeader } from "@/components/site-header"
 import { SiteFooter } from "@/components/site-footer"
 import { CallPopup } from "@/components/call-popup"
 import { PawPrint, Phone, Plane, AlertTriangle, CheckCircle2, FileText, Scale, Box } from "lucide-react"
@@ -8,7 +8,7 @@ import type { Metadata } from "next"
 import Link from "next/link"
 
 export const metadata: Metadata = {
-  title: "THY Evcil Hayvan Taşıma 2026 | Türk Hava Yolları Pet Kuralları - FlyTR",
+  title: "THY Evcil Hayvan Taşıma 2026 | Türk Hava Yolları Pet Kuralları - bilethizmeti.com",
   description:
     "Türk Hava Yolları evcil hayvan taşıma kuralları. THY ile kedi, köpek uçak yolculuğu. Kabin ve kargo taşıma, gerekli belgeler ve ücretler.",
   keywords: "thy evcil hayvan, türk hava yolları pet, thy kedi taşıma, thy köpek taşıma, uçakta evcil hayvan",

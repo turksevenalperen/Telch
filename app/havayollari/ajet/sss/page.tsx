@@ -1,4 +1,4 @@
-import { SiteHeader } from "@/components/site-header"
+﻿import { SiteHeader } from "@/components/site-header"
 import { SiteFooter } from "@/components/site-footer"
 import { CallPopup } from "@/components/call-popup"
 import { HelpCircle, Phone, Plane, ChevronDown } from "lucide-react"
@@ -8,7 +8,7 @@ import type { Metadata } from "next"
 import Link from "next/link"
 
 export const metadata: Metadata = {
-  title: "AJet Sık Sorulan Sorular 2026 | SSS ve Cevaplar - FlyTR",
+  title: "AJet Sık Sorulan Sorular 2026 | SSS ve Cevaplar - bilethizmeti.com",
   description:
     "AJet hakkında sık sorulan sorular. Bilet, bagaj, check-in, iptal ve değişiklik hakkında merak edilenler.",
   keywords: "ajet sss, ajet sorular, ajet yardım, ajet sıkça sorulan sorular",
@@ -29,7 +29,7 @@ export default function AJetSSSPage() {
         },
         {
           soru: "Biletimi nasıl satın alabilirim?",
-          cevap: "AJet biletinizi ajet.com web sitesi, mobil uygulama, çağrı merkezi veya FlyTR gibi yetkili acenteler üzerinden satın alabilirsiniz."
+          cevap: "AJet biletinizi ajet.com web sitesi, mobil uygulama, çağrı merkezi veya bilethizmeti.com gibi yetkili acenteler üzerinden satın alabilirsiniz."
         },
       ]
     },

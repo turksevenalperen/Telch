@@ -1,4 +1,4 @@
-"use client"
+﻿"use client"
 
 import { SiteHeader } from "@/components/site-header"
 import { SiteFooter } from "@/components/site-footer"
@@ -37,7 +37,7 @@ export default function THYClientPage() {
             </h1>
 
             <p className="text-lg text-muted-foreground md:text-xl text-pretty mb-8">
-              Dünyanın en çok ülkeye uçan havayolu şirketi ile seyahat edin. En uygun THY bilet fiyatları FlyTR&apos;da.
+              Dünyanın en çok ülkeye uçan havayolu şirketi ile seyahat edin. En uygun THY bilet fiyatları bilethizmeti.com&apos;da.
             </p>
 
             <div className="flex flex-wrap justify-center gap-8 mb-8">
@@ -224,14 +224,14 @@ export default function THYClientPage() {
 
             <div className="prose prose-lg max-w-none">
               <p className="text-muted-foreground mb-6 text-pretty">
-                Türkiye&apos;nin milli havayolu şirketi Türk Hava Yolları (THY) ile seyahat etmek istiyorsanız, FlyTR
+                Türkiye&apos;nin milli havayolu şirketi Türk Hava Yolları (THY) ile seyahat etmek istiyorsanız, bilethizmeti.com
                 üzerinden kolayca bilet satın alabilirsiniz.
               </p>
 
               <Card className="p-6 mb-8">
                 <h3 className="text-xl font-bold mb-4">THY Bilet Alma Süreci</h3>
                 <p className="text-muted-foreground text-pretty">
-                  Türk Hava Yolları biletinizi FlyTR üzerinden satın almak oldukça basittir. Yukarıdaki arama formunu
+                  Türk Hava Yolları biletinizi bilethizmeti.com üzerinden satın almak oldukça basittir. Yukarıdaki arama formunu
                   kullanarak kalkış ve varış noktalarınızı, seyahat tarihlerinizi ve yolcu sayınızı belirledikten sonra
                   &quot;THY Uçuş Ara&quot; butonuna tıklayın.
                 </p>
@@ -299,12 +299,12 @@ export default function THYClientPage() {
         </div>
       </section>
 
-      {/* Why FlyTR for THY */}
+      {/* Why bilethizmeti.com for THY */}
       <section className="py-20 bg-red-600 text-white">
         <div className="container mx-auto px-4 text-center">
-          <h2 className="text-3xl font-bold mb-4 text-balance">Neden FlyTR ile THY Bileti?</h2>
+          <h2 className="text-3xl font-bold mb-4 text-balance">Neden bilethizmeti.com ile THY Bileti?</h2>
           <p className="text-lg mb-8 max-w-2xl mx-auto opacity-90 text-pretty">
-            FlyTR üzerinden Türk Hava Yolları bileti almanın avantajları
+            bilethizmeti.com üzerinden Türk Hava Yolları bileti almanın avantajları
           </p>
 
           <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-5 max-w-6xl mx-auto mb-8">

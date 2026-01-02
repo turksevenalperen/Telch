@@ -1,4 +1,4 @@
-import { SiteHeader } from "@/components/site-header"
+﻿import { SiteHeader } from "@/components/site-header"
 import { SiteFooter } from "@/components/site-footer"
 import { CallPopup } from "@/components/call-popup"
 import { Phone, Mail, Globe, MessageCircle, Clock, MapPin, Plane } from "lucide-react"
@@ -8,7 +8,7 @@ import type { Metadata } from "next"
 import Link from "next/link"
 
 export const metadata: Metadata = {
-  title: "Pegasus İletişim 2026 | Müşteri Hizmetleri Telefon - FlyTR",
+  title: "Pegasus İletişim 2026 | Müşteri Hizmetleri Telefon - bilethizmeti.com",
   description:
     "Pegasus müşteri hizmetleri telefon numarası, e-posta ve sosyal medya iletişim kanalları. 7/24 destek hattı.",
   keywords: "pegasus iletişim, pegasus telefon, pegasus müşteri hizmetleri, pegasus çağrı merkezi",
@@ -155,7 +155,7 @@ export default function PegasusIletisimPage() {
               <div className="text-center">
                 <h2 className="text-2xl font-bold mb-4">Hızlı Destek Alın</h2>
                 <p className="text-muted-foreground mb-6">
-                  Pegasus uçuşlarınızla ilgili tüm sorularınız için FlyTR uzmanlarına ulaşın.
+                  Pegasus uçuşlarınızla ilgili tüm sorularınız için bilethizmeti.com uzmanlarına ulaşın.
                 </p>
                 <Button size="lg" className="gap-2 bg-yellow-600 hover:bg-yellow-700" asChild>
                   <a href="tel:08503030787">

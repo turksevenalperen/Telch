@@ -1,4 +1,4 @@
-import { SiteHeader } from "@/components/site-header"
+﻿import { SiteHeader } from "@/components/site-header"
 import { SiteFooter } from "@/components/site-footer"
 import { CallPopup } from "@/components/call-popup"
 import { Luggage, Phone, Plane, AlertTriangle, CheckCircle2, ShoppingCart } from "lucide-react"
@@ -8,7 +8,7 @@ import type { Metadata } from "next"
 import Link from "next/link"
 
 export const metadata: Metadata = {
-  title: "AJet Bagaj Hakkı 2026 | Bagaj Kuralları ve Ücretleri - FlyTR",
+  title: "AJet Bagaj Hakkı 2026 | Bagaj Kuralları ve Ücretleri - bilethizmeti.com",
   description:
     "AJet bagaj hakkı ve kuralları. Kabin bagajı, check-in bagajı ağırlık limitleri ve ek bagaj ücretleri.",
   keywords: "ajet bagaj, ajet bagaj hakkı, ajet kabin bagajı, ajet bagaj ücreti",

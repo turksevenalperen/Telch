@@ -1,4 +1,4 @@
-import { SiteHeader } from "@/components/site-header"
+﻿import { SiteHeader } from "@/components/site-header"
 import { SiteFooter } from "@/components/site-footer"
 import { CallPopup } from "@/components/call-popup"
 import { Scale, Phone, Plane, CheckCircle2, AlertTriangle, Clock, Coffee, Hotel } from "lucide-react"
@@ -8,7 +8,7 @@ import type { Metadata } from "next"
 import Link from "next/link"
 
 export const metadata: Metadata = {
-  title: "SunExpress Yolcu Hakları 2026 | Gecikme ve İptal Hakları - FlyTR",
+  title: "SunExpress Yolcu Hakları 2026 | Gecikme ve İptal Hakları - bilethizmeti.com",
   description:
     "SunExpress yolcu hakları, uçuş iptali ve gecikme durumunda haklarınız hakkında bilgi.",
   keywords: "sunexpress yolcu hakları, sunexpress gecikme, sunexpress iptal tazminat",

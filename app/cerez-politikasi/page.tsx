@@ -1,4 +1,4 @@
-import { SiteHeader } from "@/components/site-header"
+﻿import { SiteHeader } from "@/components/site-header"
 import { SiteFooter } from "@/components/site-footer"
 import { CallPopup } from "@/components/call-popup"
 import { Shield, Lock, Eye, Settings } from "lucide-react"
@@ -6,12 +6,12 @@ import { Card } from "@/components/ui/card"
 import type { Metadata } from "next"
 
 export const metadata: Metadata = {
-  title: "Çerez Politikası - FlyTR | KVKK ve GDPR Uyumlu Gizlilik",
+  title: "Çerez Politikası - bilethizmeti.com | KVKK ve GDPR Uyumlu Gizlilik",
   description:
-    "FlyTR çerez politikası. Web sitemizde kullanılan çerezler, veri güvenliği ve gizlilik uygulamalarımız hakkında detaylı bilgi. KVKK ve GDPR uyumlu.",
+    "bilethizmeti.com çerez politikası. Web sitemizde kullanılan çerezler, veri güvenliği ve gizlilik uygulamalarımız hakkında detaylı bilgi. KVKK ve GDPR uyumlu.",
   keywords: "çerez politikası, cookie policy, gizlilik, veri güvenliği, KVKK, GDPR, kişisel veri koruma",
   openGraph: {
-    title: "Çerez Politikası - FlyTR",
+    title: "Çerez Politikası - bilethizmeti.com",
     description: "Web sitemizde kullanılan çerezler ve gizlilik uygulamalarımız hakkında şeffaf bilgilendirme.",
   },
 }
@@ -70,8 +70,8 @@ export default function CookiePolicyPage() {
             <Card className="p-8 mb-8">
               <h2 className="text-2xl font-bold mb-4">Giriş</h2>
               <p className="text-muted-foreground mb-4 text-pretty">
-                FlyTR olarak, web sitemizi ziyaret eden kullanıcılarımızın gizliliğine saygı duyuyor ve kişisel
-                verilerinin korunması konusunda azami özen gösteriyoruz. Bu çerez politikası, www.FlyTR.com.tr web
+                bilethizmeti.com olarak, web sitemizi ziyaret eden kullanıcılarımızın gizliliğine saygı duyuyor ve kişisel
+                verilerinin korunması konusunda azami özen gösteriyoruz. Bu çerez politikası, www.bilethizmeti.com web
                 sitesinde kullanılan çerezler hakkında sizi bilgilendirmek amacıyla hazırlanmıştır.
               </p>
               <p className="text-muted-foreground text-pretty">
@@ -218,7 +218,7 @@ export default function CookiePolicyPage() {
                 </div>
                 <div>
                   <p className="font-semibold mb-1">E-posta</p>
-                  <p className="opacity-90">info@FlyTR.com.tr</p>
+                  <p className="opacity-90">info@bilethizmeti.com</p>
                 </div>
                 <div>
                   <p className="font-semibold mb-1">Çalışma Saatleri</p>

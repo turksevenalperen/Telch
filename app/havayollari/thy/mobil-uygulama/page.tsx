@@ -1,4 +1,4 @@
-import { SiteHeader } from "@/components/site-header"
+﻿import { SiteHeader } from "@/components/site-header"
 import { SiteFooter } from "@/components/site-footer"
 import { CallPopup } from "@/components/call-popup"
 import { Smartphone, Phone, Plane, CheckCircle2, Download, CreditCard, QrCode, Bell, Map } from "lucide-react"
@@ -8,7 +8,7 @@ import type { Metadata } from "next"
 import Link from "next/link"
 
 export const metadata: Metadata = {
-  title: "THY Mobil Uygulama 2026 | Türk Hava Yolları App İndir - FlyTR",
+  title: "THY Mobil Uygulama 2026 | Türk Hava Yolları App İndir - bilethizmeti.com",
   description:
     "Türk Hava Yolları mobil uygulaması. iOS ve Android için ücretsiz THY app. Bilet alma, check-in, boarding pass ve uçuş takibi.",
   keywords: "thy mobil uygulama, türk hava yolları app, thy uygulama indir, thy ios, thy android",

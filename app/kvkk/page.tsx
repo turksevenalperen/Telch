@@ -1,4 +1,4 @@
-import { SiteHeader } from "@/components/site-header"
+﻿import { SiteHeader } from "@/components/site-header"
 import { SiteFooter } from "@/components/site-footer"
 import { CallPopup } from "@/components/call-popup"
 import { Shield, FileCheck, UserCheck, AlertCircle } from "lucide-react"
@@ -6,7 +6,7 @@ import { Card } from "@/components/ui/card"
 import type { Metadata } from "next"
 
 export const metadata: Metadata = {
-  title: "KVKK Aydınlatma Metni | Kişisel Verilerin Korunması - FlyTR",
+  title: "KVKK Aydınlatma Metni | Kişisel Verilerin Korunması - bilethizmeti.com",
   description:
     "6698 sayılı KVKK kapsamında kişisel verilerinizin nasıl işlendiği, korunduğu ve haklarınız hakkında detaylı bilgilendirme metni.",
   keywords: "KVKK, kişisel verilerin korunması, aydınlatma metni, veri sorumlusu, KVKK hakları",
@@ -54,7 +54,7 @@ export default function KVKKPage() {
               <Card className="p-6">
                 <p className="text-muted-foreground text-pretty">
                   Bu aydınlatma metni, 6698 sayılı Kişisel Verilerin Korunması Kanunu (&quot;KVKK&quot;) kapsamında,
-                  Doğa Turizm Gıda İşletmeleri Ticaret Limited Şirketi (&quot;FlyTR&quot; veya &quot;Şirket&quot;)
+                  Doğa Turizm Gıda İşletmeleri Ticaret Limited Şirketi (&quot;bilethizmeti.com&quot; veya &quot;Şirket&quot;)
                   tarafından kişisel verilerinizin işlenmesi hakkında sizleri bilgilendirmek amacıyla hazırlanmıştır.
                 </p>
               </Card>
@@ -71,7 +71,7 @@ export default function KVKKPage() {
                     <strong>Unvan:</strong> Doğa Turizm Gıda İşletmeleri Ticaret Limited Şirketi
                   </p>
                   <p>
-                    <strong>Ticaret Unvanı:</strong> FlyTR
+                    <strong>Ticaret Unvanı:</strong> bilethizmeti.com
                   </p>
                   <p>
                     <strong>Adres:</strong> Ulus Şehit İbrahim Akpınar Cad. No:4 Beşiktaş/İstanbul
@@ -90,14 +90,14 @@ export default function KVKKPage() {
                   </div>
                   <div>
                     <p className="font-medium mb-1">E-posta</p>
-                    <a href="mailto:info@FlyTR.com.tr" className="text-primary hover:underline">
-                      info@FlyTR.com.tr
+                    <a href="mailto:info@bilethizmeti.com" className="text-primary hover:underline">
+                      info@bilethizmeti.com
                     </a>
                   </div>
                   <div>
                     <p className="font-medium mb-1">Web</p>
-                    <a href="https://www.FlyTR.com.tr" className="text-primary hover:underline">
-                      www.FlyTR.com.tr
+                    <a href="https://www.bilethizmeti.com" className="text-primary hover:underline">
+                      www.bilethizmeti.com
                     </a>
                   </div>
                 </div>
@@ -249,8 +249,8 @@ export default function KVKKPage() {
                 <div className="grid md:grid-cols-3 gap-6">
                   <div className="text-center">
                     <div className="font-semibold mb-2">E-posta</div>
-                    <a href="mailto:info@FlyTR.com.tr" className="text-sm text-primary hover:underline">
-                      info@FlyTR.com.tr
+                    <a href="mailto:info@bilethizmeti.com" className="text-sm text-primary hover:underline">
+                      info@bilethizmeti.com
                     </a>
                   </div>
 

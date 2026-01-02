@@ -1,4 +1,4 @@
-import { SiteHeader } from "@/components/site-header"
+﻿import { SiteHeader } from "@/components/site-header"
 import { SiteFooter } from "@/components/site-footer"
 import { CallPopup } from "@/components/call-popup"
 import { Baby, Phone, Plane, AlertTriangle, CheckCircle2, FileText, Clock } from "lucide-react"
@@ -8,7 +8,7 @@ import type { Metadata } from "next"
 import Link from "next/link"
 
 export const metadata: Metadata = {
-  title: "Pegasus Hamile Yolcu 2026 | Gebelik Kuralları ve Seyahat Koşulları - FlyTR",
+  title: "Pegasus Hamile Yolcu 2026 | Gebelik Kuralları ve Seyahat Koşulları - bilethizmeti.com",
   description:
     "Pegasus hamile yolcu kuralları ve seyahat koşulları. Kaç haftaya kadar uçulabilir? Doktor raporu gerekli mi?",
   keywords: "pegasus hamile yolcu, pegasus gebelik kuralları, pegasus hamile seyahat, pegasus doktor raporu",

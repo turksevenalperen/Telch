@@ -1,4 +1,4 @@
-import { SiteHeader } from "@/components/site-header"
+﻿import { SiteHeader } from "@/components/site-header"
 import { SiteFooter } from "@/components/site-footer"
 import { CallPopup } from "@/components/call-popup"
 import { Globe, Award, Clock, CheckCircle2, Star, Sun, Plane, Luggage, RefreshCw, XCircle, CheckSquare, PawPrint, Phone, Armchair, HelpCircle, Scale, Baby, Accessibility, Smartphone, Utensils, MapPin } from "lucide-react"
@@ -9,10 +9,10 @@ import Image from "next/image"
 import Link from "next/link"
 
 export const metadata: Metadata = {
-  title: "SunExpress Uçak Bileti | En Uygun Fiyatlar - FlyTR",
+  title: "SunExpress Uçak Bileti | En Uygun Fiyatlar - bilethizmeti.com",
   description:
-    "SunExpress ile Türkiye ve Avrupa'ya uygun fiyatlı uçuşlar. Antalya ve İzmir hub'larından dünyaya. En uygun SunExpress bilet fiyatları FlyTR'da.",
-  keywords: "sunexpress, sunexpress bilet, sunexpress uçak bileti, sunexpress fiyatları, FlyTR",
+    "SunExpress ile Türkiye ve Avrupa'ya uygun fiyatlı uçuşlar. Antalya ve İzmir hub'larından dünyaya. En uygun SunExpress bilet fiyatları bilethizmeti.com'da.",
+  keywords: "sunexpress, sunexpress bilet, sunexpress uçak bileti, sunexpress fiyatları, bilethizmeti.com",
 }
 
 const quickLinks = [
@@ -59,7 +59,7 @@ export default function SunExpressPage() {
             </h1>
 
             <p className="text-lg text-muted-foreground md:text-xl text-pretty mb-8">
-              Türkiye ve Avrupa&apos;nın turistik destinasyonlarına uygun fiyatlı uçuşlar. En uygun SunExpress bilet fiyatları FlyTR&apos;da.
+              Türkiye ve Avrupa&apos;nın turistik destinasyonlarına uygun fiyatlı uçuşlar. En uygun SunExpress bilet fiyatları bilethizmeti.com&apos;da.
             </p>
 
             <div className="flex flex-wrap justify-center gap-8 mb-8">

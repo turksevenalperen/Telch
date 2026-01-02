@@ -1,4 +1,4 @@
-import { SiteHeader } from "@/components/site-header"
+﻿import { SiteHeader } from "@/components/site-header"
 import { SiteFooter } from "@/components/site-footer"
 import { CallPopup } from "@/components/call-popup"
 import { Armchair, Phone, Plane, CheckCircle2, AlertTriangle } from "lucide-react"
@@ -8,7 +8,7 @@ import type { Metadata } from "next"
 import Link from "next/link"
 
 export const metadata: Metadata = {
-  title: "Pegasus Koltuk Seçimi 2026 | Ücretler ve Koltuk Tipleri - FlyTR",
+  title: "Pegasus Koltuk Seçimi 2026 | Ücretler ve Koltuk Tipleri - bilethizmeti.com",
   description:
     "Pegasus koltuk seçimi ücretleri, koltuk tipleri ve extra legroom seçenekleri. Ücretsiz koltuk seçimi hangi tarifelerde?",
   keywords: "pegasus koltuk seçimi, pegasus koltuk ücreti, pegasus extra legroom, pegasus ön koltuk",

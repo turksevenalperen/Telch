@@ -1,4 +1,4 @@
-import { SiteHeader } from "@/components/site-header"
+﻿import { SiteHeader } from "@/components/site-header"
 import { SiteFooter } from "@/components/site-footer"
 import { CallPopup } from "@/components/call-popup"
 import { Luggage, Phone, Plane, Briefcase, ShoppingBag, AlertTriangle } from "lucide-react"
@@ -8,7 +8,7 @@ import type { Metadata } from "next"
 import Link from "next/link"
 
 export const metadata: Metadata = {
-  title: "SunExpress Bagaj Hakkı 2026 | Kg Sınırları ve Ücretler - FlyTR",
+  title: "SunExpress Bagaj Hakkı 2026 | Kg Sınırları ve Ücretler - bilethizmeti.com",
   description:
     "SunExpress bagaj hakları, kabin ve check-in bagaj ücretleri. SunLight, SunEco, SunClassic tarife bagaj bilgileri.",
   keywords: "sunexpress bagaj, sunexpress bagaj hakkı, sunexpress kabin bagajı, sunexpress bagaj ücreti",

@@ -1,4 +1,4 @@
-import { SiteHeader } from "@/components/site-header"
+﻿import { SiteHeader } from "@/components/site-header"
 import { SiteFooter } from "@/components/site-footer"
 import { CallPopup } from "@/components/call-popup"
 import { Globe, Award, Clock, CheckCircle2, Star, DollarSign, Plane, Luggage, RefreshCw, XCircle, CheckSquare, PawPrint, Phone, Armchair, HelpCircle, Scale } from "lucide-react"
@@ -9,10 +9,10 @@ import Image from "next/image"
 import Link from "next/link"
 
 export const metadata: Metadata = {
-  title: "Pegasus Hava Yolları Uçak Bileti | En Uygun Fiyatlar - FlyTR",
+  title: "Pegasus Hava Yolları Uçak Bileti | En Uygun Fiyatlar - bilethizmeti.com",
   description:
-    "Pegasus ile 100+ destinasyona uygun fiyatlı uçuşlar. Düşük maliyetli havayolu ile ekonomik seyahat. En uygun Pegasus bilet fiyatları FlyTR'da.",
-  keywords: "pegasus, pegasus hava yolları, pegasus bilet, pegasus uçak bileti, pegasus fiyatları, FlyTR",
+    "Pegasus ile 100+ destinasyona uygun fiyatlı uçuşlar. Düşük maliyetli havayolu ile ekonomik seyahat. En uygun Pegasus bilet fiyatları bilethizmeti.com'da.",
+  keywords: "pegasus, pegasus hava yolları, pegasus bilet, pegasus uçak bileti, pegasus fiyatları, bilethizmeti.com",
 }
 
 const quickLinks = [
@@ -56,7 +56,7 @@ export default function PegasusPage() {
 
             <p className="text-lg text-muted-foreground md:text-xl text-pretty mb-8">
               Düşük maliyetli havayolu şirketi ile uygun fiyatlı uçuş deneyimi. En uygun Pegasus bilet fiyatları
-              FlyTR&apos;da.
+              bilethizmeti.com&apos;da.
             </p>
 
             <div className="flex flex-wrap justify-center gap-8 mb-8">
@@ -270,13 +270,13 @@ export default function PegasusPage() {
             <div className="prose prose-lg max-w-none">
               <p className="text-muted-foreground mb-6 text-pretty">
                 Türkiye&apos;nin önde gelen düşük maliyetli havayolu şirketi Pegasus Hava Yolları ile seyahat etmek
-                istiyorsanız, FlyTR üzerinden kolayca bilet satın alabilirsiniz.
+                istiyorsanız, bilethizmeti.com üzerinden kolayca bilet satın alabilirsiniz.
               </p>
 
               <Card className="p-6 mb-8">
                 <h3 className="text-xl font-bold mb-4">Pegasus Bilet Alma Süreci</h3>
                 <p className="text-muted-foreground text-pretty">
-                  Pegasus Hava Yolları biletinizi FlyTR üzerinden satın almak oldukça basittir. Yukarıdaki arama
+                  Pegasus Hava Yolları biletinizi bilethizmeti.com üzerinden satın almak oldukça basittir. Yukarıdaki arama
                   formunu kullanarak kalkış ve varış noktalarınızı, seyahat tarihlerinizi ve yolcu sayınızı
                   belirledikten sonra &quot;Pegasus Uçuş Ara&quot; butonuna tıklayın.
                 </p>
@@ -349,12 +349,12 @@ export default function PegasusPage() {
         </div>
       </section>
 
-      {/* Why FlyTR for Pegasus */}
+      {/* Why bilethizmeti.com for Pegasus */}
       <section className="py-20 bg-yellow-600 text-white">
         <div className="container mx-auto px-4 text-center">
-          <h2 className="text-3xl font-bold mb-4 text-balance">Neden FlyTR ile Pegasus Bileti?</h2>
+          <h2 className="text-3xl font-bold mb-4 text-balance">Neden bilethizmeti.com ile Pegasus Bileti?</h2>
           <p className="text-lg mb-8 max-w-2xl mx-auto opacity-90 text-pretty">
-            FlyTR üzerinden Pegasus Hava Yolları bileti almanın avantajları
+            bilethizmeti.com üzerinden Pegasus Hava Yolları bileti almanın avantajları
           </p>
 
           <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-5 max-w-6xl mx-auto mb-8">

@@ -1,4 +1,4 @@
-import { SiteHeader } from "@/components/site-header"
+﻿import { SiteHeader } from "@/components/site-header"
 import { SiteFooter } from "@/components/site-footer"
 import { CallPopup } from "@/components/call-popup"
 import { XCircle, Phone, Plane, AlertTriangle, CheckCircle2, Clock, CreditCard } from "lucide-react"
@@ -8,7 +8,7 @@ import type { Metadata } from "next"
 import Link from "next/link"
 
 export const metadata: Metadata = {
-  title: "AJet Bilet İptali 2026 | İptal Koşulları ve İade - FlyTR",
+  title: "AJet Bilet İptali 2026 | İptal Koşulları ve İade - bilethizmeti.com",
   description:
     "AJet bilet iptali nasıl yapılır? İptal koşulları, iade süreleri ve ücretleri hakkında detaylı bilgi.",
   keywords: "ajet bilet iptali, ajet iptal, ajet iade, ajet bilet iptal ücreti",

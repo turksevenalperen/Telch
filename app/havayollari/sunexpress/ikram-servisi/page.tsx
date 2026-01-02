@@ -1,4 +1,4 @@
-import { SiteHeader } from "@/components/site-header"
+﻿import { SiteHeader } from "@/components/site-header"
 import { SiteFooter } from "@/components/site-footer"
 import { CallPopup } from "@/components/call-popup"
 import { Coffee, Phone, Plane, CheckCircle2, UtensilsCrossed, Wine } from "lucide-react"
@@ -8,7 +8,7 @@ import type { Metadata } from "next"
 import Link from "next/link"
 
 export const metadata: Metadata = {
-  title: "SunExpress İkram Servisi 2026 | Yemek ve İçecek - FlyTR",
+  title: "SunExpress İkram Servisi 2026 | Yemek ve İçecek - bilethizmeti.com",
   description:
     "SunExpress uçak içi ikram servisi, yemek ve içecek seçenekleri hakkında bilgi.",
   keywords: "sunexpress ikram, sunexpress yemek, sunexpress uçak içi servis",

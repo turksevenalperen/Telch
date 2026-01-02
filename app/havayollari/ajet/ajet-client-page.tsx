@@ -1,4 +1,4 @@
-"use client"
+﻿"use client"
 
 import { SiteHeader } from "@/components/site-header"
 import { SiteFooter } from "@/components/site-footer"
@@ -36,7 +36,7 @@ export default function AJetClientPage() {
             </h1>
 
             <p className="text-lg text-muted-foreground md:text-xl text-pretty mb-8">
-              Türk Hava Yolları grubunun ekonomik markası ile uygun fiyatlı seyahat. En ucuz AJet biletleri FlyTR&apos;da.
+              Türk Hava Yolları grubunun ekonomik markası ile uygun fiyatlı seyahat. En ucuz AJet biletleri bilethizmeti.com&apos;da.
             </p>
 
             <div className="flex flex-wrap justify-center gap-8 mb-8">

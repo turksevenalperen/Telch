@@ -1,4 +1,4 @@
-import { SiteHeader } from "@/components/site-header"
+﻿import { SiteHeader } from "@/components/site-header"
 import { SiteFooter } from "@/components/site-footer"
 import { CallPopup } from "@/components/call-popup"
 import { RefreshCw, Phone, Plane, AlertTriangle, CheckCircle2, Calendar, Clock } from "lucide-react"
@@ -8,7 +8,7 @@ import type { Metadata } from "next"
 import Link from "next/link"
 
 export const metadata: Metadata = {
-  title: "AJet Bilet Değişikliği 2026 | Tarih ve Saat Değişikliği - FlyTR",
+  title: "AJet Bilet Değişikliği 2026 | Tarih ve Saat Değişikliği - bilethizmeti.com",
   description:
     "AJet bilet değişikliği nasıl yapılır? Tarih, saat değişiklik kuralları ve ücretleri hakkında bilgi.",
   keywords: "ajet bilet değişikliği, ajet tarih değişikliği, ajet uçuş değişikliği",
@@ -175,7 +175,7 @@ export default function AJetBiletDegisikligiPage() {
                 <div className="mx-auto mb-4 flex h-14 w-14 items-center justify-center rounded-full bg-blue-100">
                   <span className="text-xl font-bold text-blue-600">3</span>
                 </div>
-                <h3 className="font-bold mb-2">FlyTR</h3>
+                <h3 className="font-bold mb-2">bilethizmeti.com</h3>
                 <p className="text-sm text-muted-foreground">Bizi arayarak kolayca değişiklik yapın</p>
               </Card>
             </div>

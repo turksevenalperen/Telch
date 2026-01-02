@@ -1,4 +1,4 @@
-import { SiteHeader } from "@/components/site-header"
+﻿import { SiteHeader } from "@/components/site-header"
 import { SiteFooter } from "@/components/site-footer"
 import { CallPopup } from "@/components/call-popup"
 import { RefreshCw, CheckCircle2, AlertCircle, Clock, Phone, Plane, Calendar, CreditCard } from "lucide-react"
@@ -8,7 +8,7 @@ import type { Metadata } from "next"
 import Link from "next/link"
 
 export const metadata: Metadata = {
-  title: "THY Bilet Değişikliği 2025 | Türk Hava Yolları Tarih ve İsim Değişikliği - FlyTR",
+  title: "THY Bilet Değişikliği 2025 | Türk Hava Yolları Tarih ve İsim Değişikliği - bilethizmeti.com",
   description:
     "Türk Hava Yolları bilet değişikliği işlemleri. THY biletinizde tarih, saat veya isim değişikliği nasıl yapılır? Değişiklik ücretleri ve kuralları.",
   keywords: "thy bilet değişikliği, türk hava yolları değişiklik, thy tarih değişikliği, thy isim değişikliği, thy bilet erteleme",

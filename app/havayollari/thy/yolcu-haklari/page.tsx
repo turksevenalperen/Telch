@@ -1,4 +1,4 @@
-import { SiteHeader } from "@/components/site-header"
+﻿import { SiteHeader } from "@/components/site-header"
 import { SiteFooter } from "@/components/site-footer"
 import { CallPopup } from "@/components/call-popup"
 import { Scale, Phone, Plane, Clock, Euro, Coffee, Hotel, AlertTriangle, CheckCircle2 } from "lucide-react"
@@ -8,7 +8,7 @@ import type { Metadata } from "next"
 import Link from "next/link"
 
 export const metadata: Metadata = {
-  title: "THY Yolcu Hakları 2026 | Rötar ve İptal Tazminatı - FlyTR",
+  title: "THY Yolcu Hakları 2026 | Rötar ve İptal Tazminatı - bilethizmeti.com",
   description:
     "Türk Hava Yolları yolcu hakları. Uçuş iptali, rötar tazminatı, EU261 hakları ve bagaj kayıplarında haklarınız.",
   keywords: "thy yolcu hakları, uçuş iptali tazminat, rötar hakları, eu261, thy tazminat",

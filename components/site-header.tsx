@@ -1,4 +1,4 @@
-"use client"
+﻿"use client"
 
 import { Plane, Phone, Menu, X, ChevronDown } from "lucide-react"
 import { Button } from "@/components/ui/button"
@@ -19,10 +19,14 @@ export function SiteHeader() {
 
   return (
     <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-backdrop-filter:bg-background/60">
-      <div className="container mx-auto flex h-16 items-center justify-between px-4">
-        <Link href="/" className="flex items-center gap-2">
-          <Image src="/flytr.png" alt="FlyTR" width={48} height={48} className="rounded" />
-          <span className="text-xl font-semibold">FlyTR</span>
+      <div className="container mx-auto flex h-20 items-center justify-between px-4">
+        <Link href="/" className="flex items-center gap-3">
+          <Image src="/ucak.jpeg" alt="bilethizmeti.com" width={56} height={56} className="rounded-lg shadow-sm" />
+          <span className="text-2xl font-bold">
+            <span className="text-blue-600">bilet</span>
+            <span className="text-orange-500">hizmeti</span>
+            <span className="text-blue-800">.com</span>
+          </span>
         </Link>
 
         {/* Desktop Navigation */}

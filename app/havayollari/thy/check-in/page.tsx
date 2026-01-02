@@ -1,4 +1,4 @@
-import { SiteHeader } from "@/components/site-header"
+﻿import { SiteHeader } from "@/components/site-header"
 import { SiteFooter } from "@/components/site-footer"
 import { CallPopup } from "@/components/call-popup"
 import { CheckSquare, CheckCircle2, Clock, Phone, Plane, Smartphone, Monitor, MapPin } from "lucide-react"
@@ -8,7 +8,7 @@ import type { Metadata } from "next"
 import Link from "next/link"
 
 export const metadata: Metadata = {
-  title: "THY Check-in 2025 | Türk Hava Yolları Online Check-in Nasıl Yapılır - FlyTR",
+  title: "THY Check-in 2025 | Türk Hava Yolları Online Check-in Nasıl Yapılır - bilethizmeti.com",
   description:
     "Türk Hava Yolları online check-in işlemleri. THY web, mobil ve havaalanı check-in adımları. Ne zaman check-in açılır? Güncel check-in rehberi.",
   keywords: "thy check-in, türk hava yolları check-in, thy online check-in, thy mobil check-in, thy check-in nasıl yapılır",

@@ -1,4 +1,4 @@
-import { SiteHeader } from "@/components/site-header"
+﻿import { SiteHeader } from "@/components/site-header"
 import { SiteFooter } from "@/components/site-footer"
 import { CallPopup } from "@/components/call-popup"
 import { Phone, Mail, MapPin, Clock, Award } from "lucide-react"
@@ -9,13 +9,13 @@ import { Textarea } from "@/components/ui/textarea"
 import type { Metadata } from "next"
 
 export const metadata: Metadata = {
-  title: "İletişim - FlyTR | 7/24 Müşteri Destek Hattı 0850 303 07 87",
+  title: "İletişim - bilethizmeti.com | 7/24 Müşteri Destek Hattı 0850 303 07 87",
   description:
-    "FlyTR ile iletişime geçin. 7/24 müşteri destek hattı: 0850 303 07 87. Bilet satış, değişiklik ve iptal için profesyonel destek. IATA ve TÜRSAB üyesi güvenilir seyahat acentesi.",
+    "bilethizmeti.com ile iletişime geçin. 7/24 müşteri destek hattı: 0850 303 07 87. Bilet satış, değişiklik ve iptal için profesyonel destek. IATA ve TÜRSAB üyesi güvenilir seyahat acentesi.",
   keywords:
-    "FlyTR iletişim, müşteri hizmetleri, destek hattı, uçak bileti yardım, 0850 303 07 87, seyahat acentesi iletişim",
+    "bilethizmeti.com iletişim, müşteri hizmetleri, destek hattı, uçak bileti yardım, 0850 303 07 87, seyahat acentesi iletişim",
   openGraph: {
-    title: "İletişim - FlyTR | 7/24 Müşteri Destek",
+    title: "İletişim - bilethizmeti.com | 7/24 Müşteri Destek",
     description: "7/24 profesyonel müşteri desteği. Hemen arayın: 0850 303 07 87",
   },
 }
@@ -59,14 +59,14 @@ export default function ContactPage() {
               </Card>
             </a>
 
-            <a href="mailto:info@FlyTR.com.tr">
+            <a href="mailto:info@bilethizmeti.com">
               <Card className="p-6 text-center hover:shadow-lg transition-shadow h-full border-2 hover:border-primary/50">
                 <div className="mx-auto mb-4 flex h-12 w-12 items-center justify-center rounded-full bg-primary/10">
                   <Mail className="h-6 w-6 text-primary" />
                 </div>
                 <h3 className="font-semibold mb-2">E-posta</h3>
                 <p className="text-sm text-muted-foreground mb-3">Hızlı yanıt garantisi</p>
-                <p className="text-lg font-bold text-primary mb-1">info@FlyTR.com.tr</p>
+                <p className="text-lg font-bold text-primary mb-1">info@bilethizmeti.com</p>
                 <p className="text-xs text-muted-foreground">24 saat içinde yanıt</p>
               </Card>
             </a>
