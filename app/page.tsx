@@ -7,6 +7,7 @@ import { SiteHeader } from "@/components/site-header"
 import { SiteFooter } from "@/components/site-footer"
 import { CallPopup } from "@/components/call-popup"
 import { TrustBadges } from "@/components/trust-badges"
+import { Testimonials } from "@/components/testimonials"
 import Link from "next/link"
 import Image from "next/image"
 
@@ -381,6 +382,9 @@ export default function Home() {
           </Button>
         </div>
       </section>
+
+      {/* Müşteri Yorumları */}
+      <Testimonials />
 
       {/* Trust Badges */}
       <TrustBadges />
