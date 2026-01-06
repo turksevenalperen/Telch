@@ -63,6 +63,7 @@ export default async function RoutePage({ params }: RoutePageProps) {
 
   if (!route) {
     notFound();
+    return null; // TypeScript için unreachable olduğunu belirt
   }
 
   // JSON-LD Schema

@@ -226,27 +226,23 @@
     <priority>0.5</priority>
   </url>
   
-  <!-- Blog Sayfaları (35 Blog) -->
+  <!-- Blog Ana Sayfa -->
   <url>
     <loc>https://www.bilethizmeti.com/blog</loc>
     <lastmod>2026-01-07</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.8</priority>
+    <priority>0.9</priority>
   </url>
+  
+  <!-- Blog Detay Sayfaları (35 Blog) -->
   <url>
-    <loc>https://www.bilethizmeti.com/blog/ucuz-ucak-bileti-bulmanin-10-yolu</loc>
+    <loc>https://www.bilethizmeti.com/blog/ucuz-ucak-bileti-nasil-alinir</loc>
     <lastmod>2026-01-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.bilethizmeti.com/blog/thy-mil-kazanma-taktikleri</loc>
-    <lastmod>2026-01-07</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.bilethizmeti.com/blog/ucak-bagaj-kurallari</loc>
+    <loc>https://www.bilethizmeti.com/blog/ucak-bileti-iptal-ve-iade-rehberi</loc>
     <lastmod>2026-01-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -258,43 +254,169 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.bilethizmeti.com/blog/ucak-bileti-iptal-haklari</loc>
+    <loc>https://www.bilethizmeti.com/blog/ucak-bagaj-kurallari-2026</loc>
     <lastmod>2026-01-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.bilethizmeti.com/blog/bebekle-ucak-yolculugu</loc>
+    <loc>https://www.bilethizmeti.com/blog/hamile-yolcular-icin-ucus-rehberi</loc>
     <lastmod>2026-01-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.bilethizmeti.com/blog/ekonomi-business-class-farklari</loc>
+    <loc>https://www.bilethizmeti.com/blog/bebek-ile-ucak-yolculugu</loc>
     <lastmod>2026-01-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.bilethizmeti.com/blog/havaalani-isleri-rehberi</loc>
+    <loc>https://www.bilethizmeti.com/blog/evcil-hayvan-ile-ucus</loc>
     <lastmod>2026-01-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.bilethizmeti.com/blog/tatil-icin-en-uygun-zaman</loc>
+    <loc>https://www.bilethizmeti.com/blog/engelli-yolcular-icin-hizmetler</loc>
     <lastmod>2026-01-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.bilethizmeti.com/blog/ucak-korkusu-yenme</loc>
+    <loc>https://www.bilethizmeti.com/blog/yurt-disi-ucuslarda-vize-rehberi</loc>
     <lastmod>2026-01-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.bilethizmeti.com/blog/erken-rezervasyon-avantajlari</loc>
+    <loc>https://www.bilethizmeti.com/blog/pasaport-islemleri-rehberi</loc>
+    <lastmod>2026-01-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.bilethizmeti.com/blog/thy-mil-kazanma-harcama</loc>
+    <lastmod>2026-01-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.bilethizmeti.com/blog/pegasus-bolbol-puan-rehberi</loc>
+    <lastmod>2026-01-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.bilethizmeti.com/blog/istanbul-havalimani-ulasim-rehberi</loc>
+    <lastmod>2026-01-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.bilethizmeti.com/blog/sabiha-gokcen-ulasim-rehberi</loc>
+    <lastmod>2026-01-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.bilethizmeti.com/blog/ankara-esenboga-ulasim</loc>
+    <lastmod>2026-01-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.bilethizmeti.com/blog/ucusta-yasak-maddeler</loc>
+    <lastmod>2026-01-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.bilethizmeti.com/blog/ucus-korkusu-nasil-yenilir</loc>
+    <lastmod>2026-01-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.bilethizmeti.com/blog/jet-lag-nasil-onlenir</loc>
+    <lastmod>2026-01-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.bilethizmeti.com/blog/ucakta-saglik-onlemleri</loc>
+    <lastmod>2026-01-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.bilethizmeti.com/blog/is-seyahati-ipuclari</loc>
+    <lastmod>2026-01-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.bilethizmeti.com/blog/aile-ile-tatil-ucusu</loc>
+    <lastmod>2026-01-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.bilethizmeti.com/blog/solo-seyahat-rehberi</loc>
+    <lastmod>2026-01-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.bilethizmeti.com/blog/kis-tatili-ucus-onerileri</loc>
+    <lastmod>2026-01-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.bilethizmeti.com/blog/yaz-tatili-erken-rezervasyon</loc>
+    <lastmod>2026-01-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.bilethizmeti.com/blog/ramazan-bayrami-ucuslari</loc>
+    <lastmod>2026-01-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.bilethizmeti.com/blog/kurban-bayrami-ucuslari</loc>
+    <lastmod>2026-01-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.bilethizmeti.com/blog/ucak-bileti-karsilastirma</loc>
+    <lastmod>2026-01-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.bilethizmeti.com/blog/aktarmali-ucus-rehberi</loc>
+    <lastmod>2026-01-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.bilethizmeti.com/blog/first-class-business-class-farki</loc>
+    <lastmod>2026-01-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.bilethizmeti.com/blog/ucak-tipleri-ve-ozellikleri</loc>
+    <lastmod>2026-01-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.bilethizmeti.com/blog/havayolu-ittifaklari</loc>
     <lastmod>2026-01-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -306,139 +428,19 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.bilethizmeti.com/blog/pegasus-thy-karsilastirma</loc>
+    <loc>https://www.bilethizmeti.com/blog/overbooking-nedir</loc>
     <lastmod>2026-01-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.bilethizmeti.com/blog/cocukla-seyahat-ipuclari</loc>
+    <loc>https://www.bilethizmeti.com/blog/ucak-bileti-fiyat-karsilastirma</loc>
     <lastmod>2026-01-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.bilethizmeti.com/blog/ucak-koltuk-secimi</loc>
-    <lastmod>2026-01-07</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.bilethizmeti.com/blog/son-dakika-bilet-fiyatlari</loc>
-    <lastmod>2026-01-07</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.bilethizmeti.com/blog/yaz-tatili-ucus-planlama</loc>
-    <lastmod>2026-01-07</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.bilethizmeti.com/blog/ucak-yemekleri-rehberi</loc>
-    <lastmod>2026-01-07</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.bilethizmeti.com/blog/havaalani-transfer-secenekleri</loc>
-    <lastmod>2026-01-07</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.bilethizmeti.com/blog/ucak-sigortasi-gerekli-mi</loc>
-    <lastmod>2026-01-07</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.bilethizmeti.com/blog/hamile-seyahat-kurallari</loc>
-    <lastmod>2026-01-07</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.bilethizmeti.com/blog/pasaport-vize-islemleri</loc>
-    <lastmod>2026-01-07</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.bilethizmeti.com/blog/aktarmali-ucus-avantajlari</loc>
-    <lastmod>2026-01-07</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.bilethizmeti.com/blog/jet-lag-nasil-atlatilir</loc>
-    <lastmod>2026-01-07</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.bilethizmeti.com/blog/kis-sezonu-ucak-bileti</loc>
-    <lastmod>2026-01-07</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.bilethizmeti.com/blog/evcil-hayvanla-ucus</loc>
-    <lastmod>2026-01-07</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.bilethizmeti.com/blog/lounge-erisimi-saglamanin-yollari</loc>
-    <lastmod>2026-01-07</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.bilethizmeti.com/blog/ramazan-bayraminda-ucak-bileti</loc>
-    <lastmod>2026-01-07</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.bilethizmeti.com/blog/engelli-yolcu-haklari</loc>
-    <lastmod>2026-01-07</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.bilethizmeti.com/blog/ogrenci-ucak-indirimleri</loc>
-    <lastmod>2026-01-07</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.bilethizmeti.com/blog/yilbasi-ucak-bileti-planlama</loc>
-    <lastmod>2026-01-07</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.bilethizmeti.com/blog/saglik-sorunlari-ucus</loc>
-    <lastmod>2026-01-07</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.bilethizmeti.com/blog/aile-tatili-bilet-stratejileri</loc>
-    <lastmod>2026-01-07</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.bilethizmeti.com/blog/ist-havaalani-ulasim-rehberi</loc>
-    <lastmod>2026-01-07</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.bilethizmeti.com/blog/ucak-bileti-karsilastirma-sitesi</loc>
+    <loc>https://www.bilethizmeti.com/blog/transfer-ucuslari-rehberi</loc>
     <lastmod>2026-01-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
