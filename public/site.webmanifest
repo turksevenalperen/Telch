@@ -1,0 +1,21 @@
+{
+  "name": "bilethizmeti.com - Uçak Bileti",
+  "short_name": "bilethizmeti",
+  "description": "Türkiye'nin Güvenilir Uçak Bileti Satış Platformu",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#5a5f8f",
+  "icons": [
+    {
+      "src": "/bilethizmeti.com.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/bilethizmeti.com.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
