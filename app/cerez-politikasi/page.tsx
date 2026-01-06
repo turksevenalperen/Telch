@@ -214,7 +214,7 @@ export default function CookiePolicyPage() {
               <div className="grid md:grid-cols-3 gap-4 text-sm">
                 <div>
                   <p className="font-semibold mb-1">Telefon</p>
-                  <p className="opacity-90">0850 303 07 87</p>
+                  <a href="tel:+908503030787" className="opacity-90 hover:opacity-100 hover:underline">0850 303 07 87</a>
                 </div>
                 <div>
                   <p className="font-semibold mb-1">E-posta</p>

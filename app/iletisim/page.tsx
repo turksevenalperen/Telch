@@ -54,7 +54,7 @@ export default function ContactPage() {
                 </div>
                 <h3 className="font-semibold mb-2">Telefon</h3>
                 <p className="text-sm text-muted-foreground mb-3">7/24 Çağrı Merkezi</p>
-                <p className="text-2xl font-bold text-primary mb-1">0850 303 07 87</p>
+                <span className="text-2xl font-bold text-primary mb-1 block">0850 303 07 87</span>
                 <p className="text-xs text-muted-foreground">Ücretsiz arama</p>
               </Card>
             </a>
