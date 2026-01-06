@@ -1,9 +1,74 @@
 # robots.txt for bilethizmeti.com
+
+# Tüm arama motorlarına izin ver
 User-agent: *
 Allow: /
 
-# Sitemap
+# ============================================
+# YAPAY ZEKA BOTLARINA İZİN
+# ============================================
+
+# OpenAI - ChatGPT, GPT-4
+User-agent: GPTBot
+Allow: /
+
+# OpenAI - Eklentiler ve araçlar
+User-agent: ChatGPT-User
+Allow: /
+
+# Anthropic - Claude
+User-agent: ClaudeBot
+Allow: /
+User-agent: Claude-Web
+Allow: /
+
+# Google - Gemini, Bard
+User-agent: Google-Extended
+Allow: /
+
+# Perplexity AI
+User-agent: PerplexityBot
+Allow: /
+
+# Microsoft - Copilot, Bing AI
+User-agent: Bingbot
+Allow: /
+
+# Apple - Apple Intelligence
+User-agent: Applebot-Extended
+Allow: /
+
+# Meta - Meta AI
+User-agent: Meta-ExternalAgent
+Allow: /
+User-agent: meta-externalagent
+Allow: /
+User-agent: FacebookBot
+Allow: /
+
+# Cohere AI
+User-agent: cohere-ai
+Allow: /
+
+# Common Crawl (birçok AI tarafından kullanılır)
+User-agent: CCBot
+Allow: /
+
+# You.com
+User-agent: YouBot
+Allow: /
+
+# Amazon - Alexa
+User-agent: Amazonbot
+Allow: /
+
+# ============================================
+# SİTEMAP VE LLMs.txt
+# ============================================
 Sitemap: https://www.bilethizmeti.com/sitemap.xml
 
-# Crawl-delay
+# Yapay Zeka Manifest Dosyası
+# llms.txt: https://www.bilethizmeti.com/llms.txt
+
+# Crawl-delay (aşırı yüklenmeyi önlemek için)
 Crawl-delay: 1
