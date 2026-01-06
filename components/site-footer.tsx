@@ -1,4 +1,4 @@
-﻿import { Plane, Phone, Mail, Globe, Shield } from "lucide-react"
+import { Plane, Phone, Mail, Globe, Shield, Facebook, Instagram, Twitter, Youtube, Linkedin } from "lucide-react"
 import Link from "next/link"
 import Image from "next/image"
 
@@ -39,6 +39,58 @@ export function SiteFooter() {
                 </a>
               </div>
             </div>
+            
+            {/* Sosyal Medya Linkleri */}
+            <div className="mt-6">
+              <h4 className="font-semibold mb-3 text-sm">Bizi Takip Edin</h4>
+              <div className="flex items-center gap-3">
+                <a
+                  href="https://facebook.com/bilethizmeti"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="bg-blue-600 text-white p-2 rounded-full hover:bg-blue-700 transition"
+                  aria-label="Facebook'ta takip edin"
+                >
+                  <Facebook className="h-4 w-4" />
+                </a>
+                <a
+                  href="https://instagram.com/bilethizmeti"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="bg-gradient-to-tr from-yellow-500 via-pink-500 to-purple-600 text-white p-2 rounded-full hover:opacity-90 transition"
+                  aria-label="Instagram'da takip edin"
+                >
+                  <Instagram className="h-4 w-4" />
+                </a>
+                <a
+                  href="https://twitter.com/bilethizmeti"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="bg-black text-white p-2 rounded-full hover:bg-gray-800 transition"
+                  aria-label="X (Twitter)'da takip edin"
+                >
+                  <Twitter className="h-4 w-4" />
+                </a>
+                <a
+                  href="https://youtube.com/@bilethizmeti"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="bg-red-600 text-white p-2 rounded-full hover:bg-red-700 transition"
+                  aria-label="YouTube'da takip edin"
+                >
+                  <Youtube className="h-4 w-4" />
+                </a>
+                <a
+                  href="https://linkedin.com/company/bilethizmeti"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="bg-blue-700 text-white p-2 rounded-full hover:bg-blue-800 transition"
+                  aria-label="LinkedIn'de takip edin"
+                >
+                  <Linkedin className="h-4 w-4" />
+                </a>
+              </div>
+            </div>
           </div>
 
           <div>
@@ -55,8 +107,23 @@ export function SiteFooter() {
                 </Link>
               </li>
               <li>
+                <Link href="/ucuslar" className="hover:text-primary">
+                  Popüler Uçuşlar
+                </Link>
+              </li>
+              <li>
                 <Link href="/havayollari" className="hover:text-primary">
                   Havayolları
+                </Link>
+              </li>
+              <li>
+                <Link href="/blog" className="hover:text-primary">
+                  Blog
+                </Link>
+              </li>
+              <li>
+                <Link href="/sss" className="hover:text-primary">
+                  Sıkça Sorulan Sorular
                 </Link>
               </li>
               <li>
@@ -99,26 +166,36 @@ export function SiteFooter() {
           </div>
 
           <div>
-            <h3 className="font-semibold mb-4">Havayolları</h3>
+            <h3 className="font-semibold mb-4">Popüler Rotalar</h3>
             <ul className="space-y-2 text-sm text-muted-foreground">
               <li>
-                <Link href="/havayollari/thy" className="hover:text-primary">
-                  Türk Hava Yolları
+                <Link href="/ucuslar/istanbul-ankara" className="hover:text-primary">
+                  İstanbul - Ankara
                 </Link>
               </li>
               <li>
-                <Link href="/havayollari/ajet" className="hover:text-primary">
-                  AJET
+                <Link href="/ucuslar/istanbul-izmir" className="hover:text-primary">
+                  İstanbul - İzmir
                 </Link>
               </li>
               <li>
-                <Link href="/havayollari/pegasus" className="hover:text-primary">
-                  Pegasus
+                <Link href="/ucuslar/istanbul-antalya" className="hover:text-primary">
+                  İstanbul - Antalya
                 </Link>
               </li>
               <li>
-                <Link href="/havayollari/sunexpress" className="hover:text-primary">
-                  SunExpress
+                <Link href="/ucuslar/istanbul-bodrum" className="hover:text-primary">
+                  İstanbul - Bodrum
+                </Link>
+              </li>
+              <li>
+                <Link href="/ucuslar/ankara-izmir" className="hover:text-primary">
+                  Ankara - İzmir
+                </Link>
+              </li>
+              <li>
+                <Link href="/ucuslar" className="hover:text-primary font-medium">
+                  Tüm Rotalar →
                 </Link>
               </li>
             </ul>
@@ -134,6 +211,20 @@ export function SiteFooter() {
               <div className="rounded-lg border p-3">
                 <div className="font-medium">TÜRSAB Üyesi</div>
                 <div className="text-xs text-muted-foreground">No: 18270</div>
+              </div>
+            </div>
+            
+            {/* Güven Rozetleri */}
+            <div className="mt-4 space-y-2">
+              <div className="flex items-center gap-2 text-xs text-muted-foreground">
+                <Shield className="h-4 w-4 text-green-600" />
+                <span>256-bit SSL Güvenlik</span>
+              </div>
+              <div className="flex items-center gap-2 text-xs text-muted-foreground">
+                <svg className="h-4 w-4 text-green-600" fill="currentColor" viewBox="0 0 20 20">
+                  <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
+                </svg>
+                <span>Güvenli Ödeme</span>
               </div>
             </div>
           </div>

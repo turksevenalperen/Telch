@@ -5,6 +5,8 @@ import { Geist, Geist_Mono } from "next/font/google"
 import { Analytics } from "@vercel/analytics/next"
 import Script from "next/script"
 import "./globals.css"
+import { CookieBanner } from "@/components/cookie-banner"
+import { ExitIntentPopup } from "@/components/exit-intent-popup"
 
 const geist = Geist({ subsets: ["latin"] })
 const geistMono = Geist_Mono({ subsets: ["latin"] })
@@ -365,6 +367,8 @@ export default function RootLayout({
         {/* End Google Tag Manager (noscript) */}
         {children}
         <Analytics />
+        <CookieBanner />
+        <ExitIntentPopup />
       </body>
     </html>
   )
