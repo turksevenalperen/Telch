@@ -46,7 +46,7 @@ export const metadata: Metadata = {
   icons: {
     icon: [
       { url: "/favicon.ico", sizes: "any" },
-      { url: "/bilethizmeti.com.png", type: "image/png" }
+      { url: "/og-image.svg", type: "image/png" }
     ],
     shortcut: "/favicon.ico",
     apple: "/bilethizmeti.com.png",
@@ -61,9 +61,9 @@ export const metadata: Metadata = {
     description: "14 yıllık deneyim, 5M+ mutlu müşteri. IATA ve TÜRSAB üyesi güvenilir seyahat acentesi. En uygun uçak bileti fiyatları.",
     images: [
       {
-        url: "/bilethizmeti.com.png",
-        width: 512,
-        height: 512,
+        url: "/og-image.svg",
+        width: 1200,
+        height: 630,
         alt: "bilethizmeti.com Logo",
       }
     ],
@@ -72,7 +72,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "bilethizmeti.com - Türkiye'nin Güvenilir Uçak Bileti Satış Platformu",
     description: "14 yıllık deneyim, 5M+ mutlu müşteri. IATA ve TÜRSAB üyesi güvenilir seyahat acentesi.",
-    images: ["/bilethizmeti.com.png"],
+    images: ["/og-image.svg"],
     creator: "@bilethizmeti",
   },
   robots: {
@@ -142,6 +142,8 @@ export default function RootLayout({
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
             gtag('config', 'AW-17752335401');
+            // Google Analytics 4 - GA4 Measurement ID'nizi buraya ekleyin
+            // gtag('config', 'G-XXXXXXXXXX');
           `}
         </Script>
         {/* End Google Ads */}
@@ -200,7 +202,7 @@ export default function RootLayout({
               logo: {
                 "@type": "ImageObject",
                 url: "https://www.bilethizmeti.com/bilethizmeti.com.png",
-                width: 512,
+                width: 1200,
                 height: 512
               },
               image: "https://www.bilethizmeti.com/bilethizmeti.com.png",
