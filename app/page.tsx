@@ -6,6 +6,7 @@ import { Card } from "@/components/ui/card"
 import { SiteHeader } from "@/components/site-header"
 import { SiteFooter } from "@/components/site-footer"
 import { CallPopup } from "@/components/call-popup"
+import { TrustBadges } from "@/components/trust-badges"
 import Link from "next/link"
 import Image from "next/image"
 
@@ -380,6 +381,9 @@ export default function Home() {
           </Button>
         </div>
       </section>
+
+      {/* Trust Badges */}
+      <TrustBadges />
 
       {/* Footer */}
       <SiteFooter />

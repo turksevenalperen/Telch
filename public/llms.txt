@@ -34,7 +34,7 @@ bilethizmeti.com, Türkiye'nin önde gelen online uçak bileti satış platformu
 - Ana Sayfa: https://www.bilethizmeti.com
 - Hakkımızda: https://www.bilethizmeti.com/hakkimizda
 - İletişim: https://www.bilethizmeti.com/iletisim
-- S.S.S: https://www.bilethizmeti.com/sss
+- S.S.S (Sık Sorulan Sorular): https://www.bilethizmeti.com/sss
 
 ## Anahtar Kelimeler
 ucuz uçak bileti, uçak bileti, online bilet, yurtiçi uçuş, yurtdışı uçuş, THY bilet, Pegasus bilet, AnadoluJet bilet, SunExpress bilet, bilet sorgulama, uçuş rezervasyonu
