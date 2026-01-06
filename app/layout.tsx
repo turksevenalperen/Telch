@@ -80,6 +80,37 @@ export default function RootLayout({
           `}
         </Script>
         {/* End Google Tag Manager */}
+
+        {/* Google Ads (gtag.js) */}
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=AW-17752335401"
+          strategy="afterInteractive"
+        />
+        <Script id="google-ads" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'AW-17752335401');
+          `}
+        </Script>
+        {/* End Google Ads */}
+
+        {/* Phone Click Conversion Tracking */}
+        <Script id="phone-click-tracking" strategy="afterInteractive">
+          {`
+            document.addEventListener('click', function(e) {
+              var target = e.target.closest('a[href^="tel:"]');
+              if (target) {
+                gtag('event', 'conversion', {
+                  'send_to': 'AW-17752335401/Rks4CLLpiN4bEKnI_JBC'
+                });
+              }
+            });
+          `}
+        </Script>
+        {/* End Phone Click Conversion Tracking */}
+
         <link rel="canonical" href="https://www.bilethizmeti.com" />
         <meta name="geo.region" content="TR" />
         <meta name="geo.placename" content="İstanbul" />
