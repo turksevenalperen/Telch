@@ -1,0 +1,9 @@
+# robots.txt for bilethizmeti.com
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://www.bilethizmeti.com/sitemap.xml
+
+# Crawl-delay
+Crawl-delay: 1
