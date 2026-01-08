@@ -356,7 +356,7 @@ export default function RootLayout({
           }}
         />
       </head>
-      <body className={`${geist.className} antialiased`}>
+      <body className={`${geist.className} antialiased bg-white text-black`}>
         {/* Google Tag Manager (noscript) */}
         <noscript>
           <iframe
