@@ -7,6 +7,7 @@ import Script from "next/script"
 import "./globals.css"
 import { CookieBanner } from "@/components/cookie-banner"
 import { ExitIntentPopup } from "@/components/exit-intent-popup"
+import { StickyCtaBar } from "@/components/sticky-cta-bar"
 
 const geist = Geist({ subsets: ["latin"] })
 const geistMono = Geist_Mono({ subsets: ["latin"] })
@@ -48,7 +49,8 @@ export const metadata: Metadata = {
   icons: {
     icon: [
       { url: "/favicon.ico", sizes: "any" },
-      { url: "/icon.svg", type: "image/svg+xml", sizes: "any" }
+      { url: "/bilethizmeti.com.png", type: "image/png", sizes: "512x512" },
+      { url: "/ucak.jpeg", type: "image/jpeg", sizes: "256x256" }
     ],
     shortcut: "/favicon.ico",
     apple: "/bilethizmeti.com.png",
@@ -369,6 +371,7 @@ export default function RootLayout({
         <Analytics />
         <CookieBanner />
         <ExitIntentPopup />
+        <StickyCtaBar phone="0850 480 8453" />
       </body>
     </html>
   )

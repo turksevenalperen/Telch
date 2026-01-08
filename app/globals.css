@@ -127,3 +127,48 @@
     @apply bg-background text-foreground;
   }
 }
+
+/* Sticky CTA Bar - Mobile Only */
+.sticky-cta-bar-mobile {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 50;
+  background: #1e3a8a; /* mavi */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5rem 0;
+  box-shadow: 0 -2px 16px 0 rgba(30,58,138,0.08);
+  transition: transform 0.2s;
+}
+.sticky-cta-bar-mobile .cta-bar-btn {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: #ff7300; /* turuncu */
+  color: #fff;
+  font-weight: 700;
+  font-size: 1.15rem;
+  border-radius: 2rem;
+  padding: 0.7rem 2.2rem;
+  box-shadow: 0 2px 8px 0 rgba(255,115,0,0.10);
+  text-decoration: none;
+  border: none;
+  outline: none;
+  transition: background 0.2s;
+}
+.sticky-cta-bar-mobile .cta-bar-btn:hover {
+  background: #ff9100;
+}
+.sticky-cta-bar-mobile svg {
+  display: inline-block;
+  vertical-align: middle;
+}
+@media (min-width: 768px) {
+  .sticky-cta-bar-mobile {
+    display: none;
+  }
+}
+}
