@@ -1,4 +1,3 @@
-google-site-verification: CGDs38TGnL9fkRe32jH5CvKFgmGUCzz5BzIoha46PSI
 # robots.txt for bilethizmeti.com
 
 # Tüm arama motorlarına izin ver

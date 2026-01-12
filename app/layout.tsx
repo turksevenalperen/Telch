@@ -200,9 +200,6 @@ export default function RootLayout({
         {/* Canonical URL */}
         <link rel="canonical" href="https://www.bilethizmeti.com" />
 
-        {/* Google Search Console Verification */}
-        <meta name="google-site-verification" content="CGDs38TGnL9fkRe32jH5CvKFgmGUCzz5BzIoha46PSI" />
-        {/* End Google Search Console Verification */}
         
         {/* Geo Tags */}
         <meta name="geo.region" content="TR" />
