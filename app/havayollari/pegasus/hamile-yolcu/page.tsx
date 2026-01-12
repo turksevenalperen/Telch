@@ -28,7 +28,7 @@ export default function PegasusHamileYolcuPage() {
               <span>Hamile Yolcu Kuralları</span>
             </div>
 
-            <h1 className="mb-6 text-4xl font-bold tracking-tight md:text-5xl text-balance">
+            <h1 className="mb-6 text-4xl font-bold tracking-tight md:text-5xl text-balance" aria-label="Pegasus Hamile Yolcu Rehberi">
               Pegasus Hamile Yolcu Rehberi
             </h1>
 

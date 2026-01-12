@@ -21,7 +21,7 @@ export default function KVKKPage() {
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
             <div className="mb-8">
-              <h1 className="text-4xl font-bold mb-4 text-balance">KVKK Aydınlatma Metni</h1>
+              <h1 className="text-4xl font-bold mb-4 text-balance" aria-label="KVKK Aydınlatma Metni">KVKK Aydınlatma Metni</h1>
               <p className="text-lg text-muted-foreground text-pretty">
                 Kişisel verilerinizin nasıl işlendiği, korunduğu ve haklarınız hakkında detaylı bilgilendirme metni
               </p>

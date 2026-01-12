@@ -288,7 +288,7 @@ export default function FAQPage() {
                 <HelpCircle className="h-4 w-4" />
                 <span>Yardım Merkezi</span>
               </div>
-              <h1 className="mb-6 text-4xl font-bold tracking-tight md:text-5xl">
+              <h1 className="mb-6 text-4xl font-bold tracking-tight md:text-5xl" aria-label="Sık Sorulan Sorular">
                 Sık Sorulan Sorular
               </h1>
               <p className="text-lg text-muted-foreground md:text-xl">

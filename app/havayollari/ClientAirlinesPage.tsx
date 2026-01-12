@@ -23,7 +23,7 @@ export default function ClientAirlinesPage() {
       <section className="relative overflow-hidden bg-linear-to-b from-primary/5 to-background py-20">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
-            <h1 className="text-4xl font-bold mb-4 text-balance">Popüler Havayolları</h1>
+            <h1 className="text-4xl font-bold mb-4 text-balance" aria-label="Popüler Havayolları">Popüler Havayolları</h1>
             <p className="text-muted-foreground text-pretty max-w-2xl mx-auto">
               Türkiye&apos;nin en güvenilir havayolu şirketleri ile seyahat edin. 
               En uygun fiyatları karşılaştırın ve rezervasyonunuzu hemen yapın.
@@ -43,6 +43,8 @@ export default function ClientAirlinesPage() {
                       alt={airline.name}
                       fill
                       className="object-contain"
+                      loading="lazy"
+                      fetchpriority="auto"
                     />
                   </div>
                   <p className="font-bold text-lg mb-2">{airline.name}</p>

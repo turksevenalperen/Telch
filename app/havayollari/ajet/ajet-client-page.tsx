@@ -31,7 +31,7 @@ export default function AJetClientPage() {
               </div>
             </div>
 
-            <h1 className="mb-6 text-4xl font-bold tracking-tight md:text-5xl text-balance">
+            <h1 className="mb-6 text-4xl font-bold tracking-tight md:text-5xl text-balance" aria-label="AJet Uçak Bileti">
               AJet Uçak Bileti
             </h1>
 

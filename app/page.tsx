@@ -37,11 +37,10 @@ export default function Home() {
               <span>IATA & TÜRSAB Üyesi</span>
             </div>
 
-            <h2 className="mb-2 text-2xl font-bold text-white/90 md:text-3xl">Bilethizmeti.com</h2>
 
-            <h1 className="mb-6 text-4xl font-bold tracking-tight md:text-6xl text-balance">
-              <span className="text-white">Dünyaya</span>{" "}
-              <span className="text-amber-400">Açılın</span>
+            <h1 className="mb-6 text-4xl font-bold tracking-tight md:text-6xl text-balance" aria-label="Bilethizmeti.com - Dünyaya Açılın">
+              <span className="text-white">Bilethizmeti.com</span>{" "}
+              <span className="text-amber-400">Dünyaya Açılın</span>
             </h1>
 
             <p className="mb-8 text-lg text-white/90 md:text-xl text-pretty">
@@ -268,6 +267,8 @@ export default function Home() {
                       alt={airline.name}
                       fill
                       className="object-contain"
+                      loading="lazy"
+                      fetchpriority={index === 0 ? "high" : "auto"}
                     />
                   </div>
                   <p className="text-sm font-medium">{airline.name}</p>

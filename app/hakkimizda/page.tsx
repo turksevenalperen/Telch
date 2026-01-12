@@ -30,7 +30,7 @@ export default function AboutPage() {
               <span>2010&apos;dan Beri Hizmetinizdeyiz</span>
             </div>
 
-            <h1 className="mb-6 text-4xl font-bold tracking-tight md:text-5xl text-balance">bilethizmeti.com Hakkında</h1>
+            <h1 className="mb-6 text-4xl font-bold tracking-tight md:text-5xl text-balance" aria-label="bilethizmeti.com Hakkında">bilethizmeti.com Hakkında</h1>
 
             <p className="text-lg text-muted-foreground md:text-xl text-pretty">
               2010&apos;dan beri Türkiye&apos;nin güvenilir seyahat acentesi olarak, size en uygun fiyatlarla güvenli

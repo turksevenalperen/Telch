@@ -31,7 +31,7 @@ export default function BiletAlPage() {
               <span>bilethizmeti.com Bilet Hizmetleri</span>
             </div>
 
-            <h1 className="mb-6 text-4xl font-bold tracking-tight md:text-5xl text-white text-balance">
+            <h1 className="mb-6 text-4xl font-bold tracking-tight md:text-5xl text-white text-balance" aria-label="Uçak Bileti Almak İçin Bizi Arayın">
               Uçak Bileti Almak İçin <span className="text-amber-400">Bizi Arayın</span>
             </h1>
 

@@ -28,7 +28,7 @@ export default function THYHamileYolcuPage() {
               <span>Hamile Yolcu</span>
             </div>
 
-            <h1 className="mb-6 text-4xl font-bold tracking-tight md:text-5xl text-balance">
+            <h1 className="mb-6 text-4xl font-bold tracking-tight md:text-5xl text-balance" aria-label="THY Hamile Yolcu Rehberi">
               THY Hamile Yolcu Rehberi
             </h1>
 

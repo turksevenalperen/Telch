@@ -32,7 +32,7 @@ export default function THYClientPage() {
               </div>
             </div>
 
-            <h1 className="mb-6 text-4xl font-bold tracking-tight md:text-5xl text-balance">
+            <h1 className="mb-6 text-4xl font-bold tracking-tight md:text-5xl text-balance" aria-label="Türk Hava Yolları Uçak Bileti">
               Türk Hava Yolları Uçak Bileti
             </h1>
 
