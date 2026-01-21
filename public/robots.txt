@@ -1,4 +1,4 @@
-# robots.txt for bilethizmeti.com
+# robots.txt for BiletHizmeti.com
 
 # Tüm arama motorlarına izin ver
 User-agent: *
@@ -65,10 +65,10 @@ Allow: /
 # ============================================
 # SİTEMAP VE LLMs.txt
 # ============================================
-Sitemap: https://www.bilethizmeti.com/sitemap.xml
+Sitemap: https://www.BiletHizmeti.com/sitemap.xml
 
 # Yapay Zeka Manifest Dosyası
-# llms.txt: https://www.bilethizmeti.com/llms.txt
+# llms.txt: https://www.BiletHizmeti.com/llms.txt
 
 # Crawl-delay (aşırı yüklenmeyi önlemek için)
 Crawl-delay: 1

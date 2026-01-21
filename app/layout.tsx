@@ -13,20 +13,20 @@ const geist = Geist({ subsets: ["latin"] })
 const geistMono = Geist_Mono({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://www.bilethizmeti.com"),
+  metadataBase: new URL("https://www.BiletHizmeti.com"),
   title: {
-    default: "bilethizmeti.com - Türkiye'nin Güvenilir Uçak Bileti Satış Platformu | IATA & TÜRSAB Üyesi",
-    template: "%s | bilethizmeti.com"
+    default: "BiletHizmeti.com - Türkiye'nin Güvenilir Uçak Bileti Satış Platformu | IATA & TÜRSAB Üyesi",
+    template: "%s | BiletHizmeti.com"
   },
   description:
-    "bilethizmeti.com ile dünyaya açılın. 14 yıllık deneyim, 5M+ mutlu müşteri. IATA ve TÜRSAB üyesi güvenilir seyahat acentesi. En uygun fiyatlarla uçak bileti, bilet değişikliği ve 24/7 müşteri desteği.",
+    "BiletHizmeti.com ile dünyaya açılın. 14 yıllık deneyim, 5M+ mutlu müşteri. IATA ve TÜRSAB üyesi güvenilir seyahat acentesi. En uygun fiyatlarla uçak bileti, bilet değişikliği ve 24/7 müşteri desteği.",
   keywords: [
     "uçak bileti",
     "ucuz uçak bileti",
     "online bilet",
     "havayolu bileti",
     "seyahat acentesi",
-    "bilethizmeti.com",
+    "BiletHizmeti.com",
     "IATA",
     "TÜRSAB",
     "bilet satışı",
@@ -38,9 +38,9 @@ export const metadata: Metadata = {
     "yurt içi uçak bileti",
     "yurt dışı uçak bileti"
   ],
-  authors: [{ name: "bilethizmeti.com", url: "https://www.bilethizmeti.com" }],
-  creator: "bilethizmeti.com",
-  publisher: "bilethizmeti.com",
+  authors: [{ name: "BiletHizmeti.com", url: "https://www.BiletHizmeti.com" }],
+  creator: "BiletHizmeti.com",
+  publisher: "BiletHizmeti.com",
   formatDetection: {
     email: false,
     address: false,
@@ -49,32 +49,32 @@ export const metadata: Metadata = {
   icons: {
     icon: [
       { url: "/favicon.ico", sizes: "any" },
-      { url: "/bilethizmeti.com.png", type: "image/png", sizes: "512x512" },
+      { url: "/BiletHizmeti.com.png", type: "image/png", sizes: "512x512" },
       { url: "/ucak.jpeg", type: "image/jpeg", sizes: "256x256" }
     ],
     shortcut: "/favicon.ico",
-    apple: "/bilethizmeti.com.png",
+    apple: "/BiletHizmeti.com.png",
   },
   manifest: "/site.webmanifest",
   openGraph: {
     type: "website",
     locale: "tr_TR",
-    url: "https://www.bilethizmeti.com",
-    siteName: "bilethizmeti.com",
-    title: "bilethizmeti.com - Türkiye'nin Güvenilir Uçak Bileti Satış Platformu",
+    url: "https://www.BiletHizmeti.com",
+    siteName: "BiletHizmeti.com",
+    title: "BiletHizmeti.com - Türkiye'nin Güvenilir Uçak Bileti Satış Platformu",
     description: "14 yıllık deneyim, 5M+ mutlu müşteri. IATA ve TÜRSAB üyesi güvenilir seyahat acentesi. En uygun uçak bileti fiyatları.",
     images: [
       {
         url: "/og-image.svg",
         width: 1200,
         height: 630,
-        alt: "bilethizmeti.com Logo",
+        alt: "BiletHizmeti.com Logo",
       }
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "bilethizmeti.com - Türkiye'nin Güvenilir Uçak Bileti Satış Platformu",
+    title: "BiletHizmeti.com - Türkiye'nin Güvenilir Uçak Bileti Satış Platformu",
     description: "14 yıllık deneyim, 5M+ mutlu müşteri. IATA ve TÜRSAB üyesi güvenilir seyahat acentesi.",
     images: ["/og-image.svg"],
     creator: "@bilethizmeti",

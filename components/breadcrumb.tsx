@@ -21,13 +21,13 @@ export function Breadcrumb({ items, className = "" }: BreadcrumbProps) {
         "@type": "ListItem",
         position: 1,
         name: "Ana Sayfa",
-        item: "https://bilethizmeti.com",
+        item: "https://BiletHizmeti.com",
       },
       ...items.map((item, index) => ({
         "@type": "ListItem",
         position: index + 2,
         name: item.label,
-        ...(item.href && { item: `https://bilethizmeti.com${item.href}` }),
+        ...(item.href && { item: `https://BiletHizmeti.com${item.href}` }),
       })),
     ],
   };
